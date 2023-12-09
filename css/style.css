@@ -17,8 +17,9 @@ CSS INDEX
   GLOBAL CSS START
 ===============================*/
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap");
-
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  :root {
   --colorPrimary: #00f2f4;
   --bgColor: #09101a;
   --bodyBg: #02050a;
@@ -268,7 +269,7 @@ button {
 }
 
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
+  border-radius: 15px;
   background: transparent !important;
 }
 ::-webkit-scrollbar {
@@ -276,7 +277,7 @@ button {
   /* background-color: #f1f1f1; */
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #2d2d2d;
   transition: opacity 0.2s ease-in-out;
 }
@@ -1318,6 +1319,7 @@ main {
   justify-content: space-between;
   border-top: 1px solid #fff1;
   margin-top: 75px;
+  margin-left: 20%;
   padding: 35px 0px;
 }
 
@@ -1374,7 +1376,8 @@ main {
 
 .main_menu_2 .logo_2 {
   background: #151c25;
-  padding: 50px;
+  padding: 52px;
+  border-radius: 0% 0% 15px 0%;
 }
 .main_menu_2 .logo_2 img
 { 
@@ -1401,7 +1404,7 @@ main {
 }
 
 .main_menu_2 ul li a {
-  border-radius: 5px !important;
+  border-radius: 15px !important;
   border: 1px solid rgba(255, 255, 255, 0.1) !important;
   display: block;
   margin-top: 30px;
@@ -1427,7 +1430,7 @@ main {
   padding: 15px;
   line-height: 25px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-right: 17px;
   font-size: 24px;
   transition: all linear 0.3s;
@@ -1534,11 +1537,11 @@ main {
 }
 
 .tf__about_img_2 img {
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 
 .tf__about_img_2 .tf__about_img_text {
@@ -1548,14 +1551,14 @@ main {
   transform: translate(0);
   margin-left: auto;
   float: right;
-  border-radius: 4px;
+  border-radius: 14px;
   padding: 30px;
   top: -90px;
 }
 
 .tf__about_img_2 .tf__about_img_text i {
   background: var(--colorWhite);
-  border-radius: 4px;
+  border-radius: 14px;
   color: var(--colorPrimary);
 }
 
@@ -1623,7 +1626,7 @@ main {
   margin-top: 165px;
   background: var(--bgColor);
   padding: 40px;
-  border-radius: 5px;
+  border-radius: 15px;
   position: relative;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
@@ -1638,7 +1641,7 @@ main {
   height: 100px;
   background: var(--colorPrimary);
   padding: 12px;
-  border-radius: 5px;
+  border-radius: 15px;
   position: absolute;
   top: -50px;
   left: 40px;
@@ -1659,7 +1662,7 @@ main {
 .tf__single_service_2 a {
   border: 1px solid var(--colorPrimary);
   padding: 15px 30px;
-  border-radius: 5px;
+  border-radius: 15px;
   transition: all linear 0.3s;
   position: absolute;
   left: 50%;
@@ -1695,7 +1698,7 @@ main {
   color: var(--colorWhite);
   margin: 5px 10px;
   font-weight: 500;
-  border-radius: 5px;
+  border-radius: 15px;
   background: #141c27;
   font-size: 16px;
   padding: 18px 40px;
@@ -1718,7 +1721,7 @@ main {
 
 .tf__single_skill_2 {
   border: 1px solid #e3e3e310;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 40px 40px 40px 70px;
   margin-top: 25px;
 }
@@ -1808,11 +1811,11 @@ main {
 }
 
 .tf__portfolio_2 .tf__portfolio_item img {
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 
 .tf__portfolio_2 .tf__section_heading h5 {
@@ -1834,11 +1837,11 @@ main {
 }
 
 .tf__blog_img_2 img {
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .tf__blog_img_2 span {
-  border-radius: 5px;
+  border-radius: 15px;
   background: var(--colorPrimary);
   display: inline-block;
   padding: 10px 20px;
@@ -1894,7 +1897,7 @@ main {
   line-height: 22px;
   text-transform: capitalize;
   border: 1px solid var(--colorPrimary);
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 17px 20px;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
@@ -1957,7 +1960,7 @@ main {
 
 .contact_form_2 {
   text-align: center;
-  margin-top: 40px;
+  margin: 40px;
 }
 
 .contact_form_2 form input::placeholder,
@@ -1969,14 +1972,14 @@ main {
 .contact_form_2 form textarea {
   background: none;
   border: 1px solid #00f2f4;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-top: 20px;
   padding: 17px 20px;
   color: var(--colorWhite);
 }
 
 .contact_form_2 form button {
-  border-radius: 5px;
+  border-radius: 15px;
   background: var(--colorPrimary);
   color: var(--colorBlack);
   padding: 18px 67px;
@@ -2257,7 +2260,7 @@ main {
 .tf__sidebar_tags ul li a {
   font-size: 14px;
   font-weight: 400;
-  border-radius: 5px;
+  border-radius: 15px;
   background: #151c25;
   padding: 9px 14px;
   text-transform: capitalize;
@@ -2381,7 +2384,7 @@ main {
   height: 30px;
   line-height: 30px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 15px;
   background: #151c25;
   font-size: 14px;
   transition: all linear 0.3s;
