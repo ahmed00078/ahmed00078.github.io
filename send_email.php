@@ -1,5 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
     // Récupérer les valeurs du formulaire
     $name = $_POST["name"];
     $subject = $_POST["subject"];
@@ -17,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Envoyer l'e-mail
     mail($to, $subject, $message, $headers);
 
-    // Redirection après l'envoi du formulaire (vous pouvez personnaliser l'URL de redirection)
+    // Redirection après l'envoi du formulaire
     header("Location: thank-you.html");
     exit();
 }
