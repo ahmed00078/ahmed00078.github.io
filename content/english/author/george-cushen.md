@@ -1,9 +1,9 @@
 ---
 title: "Ahmed Sidi Mohamed"
-image: "images/author.jpg"
+image: "/images/authors/author.jpg"
 email: "ahmedsidimohammed78@gmail.com"
 social:
-  - icon : "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+  - icon : "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
     link : "https://www.linkedin.com/in/ahmed-sidi-mohamed-56508a269/"
   - icon : "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
     link : "#"

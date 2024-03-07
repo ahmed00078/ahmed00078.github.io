@@ -75,10 +75,10 @@ weight = 7
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+logo = "images/logo/logo.png"
 # Meta data
 description = "This is meta description"
-author = "Themefisher"
+author = "Ahmed Sidi Mohamed"
 # Google Analitycs
 google_analitycs_id = "" # your id
 
