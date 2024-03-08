@@ -80,7 +80,7 @@ logo = "images/logo/logo.png"
 description = "This is meta description"
 author = "Ahmed Sidi Mohamed"
 # Google Analitycs
-google_analitycs_id = "" # your id
+google_analitycs_id = "G-SK6EP7F2KK" # your id
 
 # body particles
 particles = true
@@ -130,7 +130,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2024 by Ahmed Sidi Mohamed"
 
 
 ################################### French language #####################################
@@ -140,4 +140,4 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 # copyright
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
+copyright = "Copyright &copy; 2024 a hugo theme by [themefisher](https://themefisher.com)"
