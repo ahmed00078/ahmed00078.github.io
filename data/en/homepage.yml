@@ -89,7 +89,7 @@ blog:
 contact_form:
   enable : true
   title : "Contact Me"
-  contact_form_action : "#" #contact form works with https://formspree.io
+  contact_form_action : "https://formcarry.com/s/1iSU1B1ZGRB" #contact form works with https://formspree.io
   name_label : "Your Name"
   email_label : "Your Email"
   textarea_label : "Your Message"
