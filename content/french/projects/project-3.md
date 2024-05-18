@@ -1,17 +1,28 @@
 ---
-title: "Reasons Why Employees Quit | Human Resources Analytics"
-date: 2020-03-14T15:40:24+06:00
+title: "Car Rental Mobile App for car rental"
+date: 2024-05-8T15:40:24+06:00
 # Project thumb
-image : "images/projects/project3.jpg"
+image : "images/projects/car-rental.png"
 draft: false
 # description
 description: "This is meta description"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+Car Rental Mobile App is a cross-platform mobile application providing a seamless experience for car rentals. Developed with the Ionic framework, it offers an intuitive user interface, while the backend built with ExpressJs ensures robust integration with APIs.
 
-invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+Key Features:
 
-accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+- Search and book cars in just a few clicks from your mobile device
+- Simplified rental process with a secure online payment system
+- Management of reservations, with the possibility of modifying or canceling a rental
+- Responsive and attractive user interface designed for optimal user experience on mobile devices
+- Solid backend with ExpressJs, ensuring high performance and good query handling
 
-sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
+Technologies used:
+
+- Ionic and Angular for the development of the multi-platform mobile application
+- ExpressJs and Node.js for building the backend and APIs
+- MongoDB for scalable data storage
+- JSON Web Tokens (JWT) for authentication and user session management
+
+This project demonstrates my skills in developing modern, high-performance mobile applications, as well as my ability to integrate cutting-edge technologies such as the Ionic and Angular frameworks for the frontend, and ExpressJs for the backend. Using MongoDB and JWT ensures efficient data management and user authentication.

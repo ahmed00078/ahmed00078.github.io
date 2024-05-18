@@ -1,6 +1,6 @@
 ---
 title: "Hack the Box — Starting Point — Meow Machine write up"
-date: 2020-03-14T15:40:24+06:00
+date: 2024-04-17T15:40:24+06:00
 # talks thumb
 image : "images/blogs/meowpwnd.png"
 draft: false

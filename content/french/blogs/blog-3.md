@@ -3,7 +3,7 @@ title: "Reasons Why Employees Quit | Human Resources Analytics"
 date: 2020-03-14T15:40:24+06:00
 # talks thumb
 image : "images/blogs/blog3.jpg"
-draft: false
+draft: true
 # description
 description: "This is meta description"
 ---
