@@ -57,14 +57,14 @@ expertise:
 
 ####################### Publication ###########################
 publication:
-  enable : true
+  enable : false
   title : "Publications"
   # publication item comes from `content/**/publications/` folder.
 
 
 ########################### Talk ##############################
 talk:
-  enable : true
+  enable : false
   title : "Recent & Upcoming Talks"
   # talk item comes from `content/**/talks/` folder.
 

@@ -46,16 +46,6 @@ weight = 1
 name = "about"
 URL = "about"
 weight = 2
-
-[[menu.main]]
-name = "publication"
-URL = "publication"
-weight = 3
-  
-[[menu.main]]
-name = "talk"
-URL = "talk"
-weight = 4
   
 [[menu.main]]
 name = "project"
