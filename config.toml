@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://ahmed78.me/"
-title = "Ahmed Sidi Mohamed"
+title = "Ahmed Sidi Mohamed | portfolio"
 theme = "gofolium"
 # post pagination
 paginate = "4"
