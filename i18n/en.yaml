@@ -12,3 +12,21 @@
 
 - id: all_blog
   translation: All blog
+
+- id: home
+  translation: "Home"
+
+- id: about
+  translation: "About"
+
+- id: project
+  translation: "Project"
+
+- id: contact
+  translation: "Contact"
+
+- id: blog
+  translation: "Blog"
+
+- id: read_more
+  translation: "Read More"

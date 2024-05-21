@@ -44,7 +44,7 @@ education:
 ####################### Expertise ###########################
 expertise:
   enable : true
-  title : "Expertise"
+  title : "Experience"
   expertise_item:
     # expertise item loop
     - name : "Gerajeune"
@@ -101,7 +101,7 @@ contact_form:
 contact_info:
   enable : true
   title : "Get In Touch"
-  content : "Let’s talk about your project and how I can help you or if you just want to chat about design and art - shoot me a message at ahmedsidimohammed78@gmail.com"
+  content : "Let's discuss your project and how I can help you, or if you simply wish to discuss new technology and security, send me a message at ahmedsidimohammed78@gmail.com."
   contact_item:
     # contact item loop
     - icon : "ti-email" # themify icon : https://themify.me/themify-icons

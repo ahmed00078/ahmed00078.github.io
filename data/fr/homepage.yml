@@ -1,7 +1,7 @@
 ######################### Banner ###########################
 banner:
   enable: true
-  title: "Salut, je suis Maclarn **!**"
+  title: "Salut, je suis Ahmed **!**"
   subtitle: "Étudiant en génie informatique"
   social: true
   # social icons comes from `config.toml` file.
@@ -22,7 +22,7 @@ education:
   title: "Éducation"
   education_item:
     # Boucle d'éléments éducatifs
-    - name: "Computer Science"
+    - name: "Génie informatique"
       duration: "Sep 2022 — Present"
       academy: "École Nationale Supérieure d’Ingénieurs de Tunis"
 
@@ -86,7 +86,7 @@ contact_form:
 contact_info:
   enable: true
   title: "Entrer en contact"
-  content: "Parlons de votre projet et de la manière dont je peux vous aider ou si vous souhaitez simplement discuter de design et d'art, envoyez-moi un message à ahmedsidimohammed78@gmail.com"
+  content: "Parlons de votre projet et de la manière dont je peux vous aider ou si vous souhaitez simplement discuter de nouvelle technologie et securite, envoyez-moi un message à ahmedsidimohammed78@gmail.com"
   contact_item:
     # contact item loop
     - icon: "ti-email" # themify icon : https://themify.me/themify-icons

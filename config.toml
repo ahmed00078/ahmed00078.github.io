@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.com"
-title = "GoFolium | Hugo Publication Template"
+title = "Ahmed Sidi Mohamed"
 theme = "gofolium"
 # post pagination
 paginate = "4"
