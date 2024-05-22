@@ -1,5 +1,5 @@
 <p style="font-size: 12px; color: red;">
-*If you are seeing this, it means there is an issue with the website and we are working on it. Please bear with us as we resolve this problem. If you are seeing this, it means there is an issue with the website and we are working on it. Please bear with us as we resolve this problem.
+*If you are seeing this, it means there is an issue with the website and we are working on it. Please bear with us as we resolve this problem.
 </p>
 
 
