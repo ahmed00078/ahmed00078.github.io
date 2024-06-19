@@ -3,6 +3,7 @@
   <title>{{ .Title }}</title>
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="ahrefs-site-verification" content="6e9d39c5b25f3f8584f177ec1c7d8a4e5f49cef043e0b64aa85864fdd81acc9a">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Params.Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
