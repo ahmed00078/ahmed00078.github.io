@@ -3,7 +3,7 @@
 </p>
 
 
-# Ahmed78.me - Website Information and Troubleshooting Guide
+# `ahmed78.me` - Website Information and Troubleshooting Guide
 
 Welcome to my personal website! Here you'll find information about my work in web development and cybersecurity, including thoughtful blog posts, project showcases, and more.
 
