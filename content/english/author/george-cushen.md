@@ -11,4 +11,4 @@ social:
     link : "https://github.com/ahmed00078"
 ---
 
-Third-year Computer Science student at the Higher National School of Engineering of Tunis (ENSIT). Motivated and ambitious, I am eager to take on new challenges to strengthen my professional skills and gain knowledge in emerging technologies.
+Second-year Computer Science student at the Higher National School of Engineering of Tunis (ENSIT). Motivated and ambitious, I am eager to take on new challenges to strengthen my professional skills and gain knowledge in emerging technologies.
