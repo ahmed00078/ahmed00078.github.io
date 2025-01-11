@@ -12,7 +12,7 @@ about:
   enable : true
   title : ""
   image : "images/authors/author.jpg"
-  content : "Passionate second-year Computer Science student at the Higher National School of Engineering of Tunis (ENSIT), driven by motivation and ambition.
+  content : "Passionate Third-year Computer Science student at the Higher National School of Engineering of Tunis (ENSIT), driven by motivation and ambition.
 
 
   Eager to face new challenges, I seek to enhance my professional skills and gain knowledge in advanced technologies. I am particularly interested in the field of cybersecurity, with a commitment to ensuring digital safety and security.
@@ -47,12 +47,12 @@ expertise:
   title : "Experience"
   expertise_item:
     # expertise item loop
-    - name : "Gerajeune"
-      content : "Intern<br> Data science"
-
+    - name: "IAJT"
+      content: "Software Engineering Intern<br>Developed a cloud-based file management system integrated with Azure<br>Technologies: Azure, Node.js, Angular, PostgreSQL"
+      
     # expertise item loop
-    - name : "XLAiner"
-      content : "Intern<br> AI & ML"
+    - name: "XLAiner"
+      content: "AI/ML Engineering Intern<br>Implemented deep learning models for medical image classification<br>Technologies: Python, TensorFlow, Docker, Computer Vision"
 
 
 ####################### Publication ###########################
