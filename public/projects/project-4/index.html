@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <title>Classification of Musical Genres</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="ahrefs-site-verification" content="6e9d39c5b25f3f8584f177ec1c7d8a4e5f49cef043e0b64aa85864fdd81acc9a">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="A microservices architecture for automatic music genre classification using machine learning and deep learning approaches">
+  <meta name="author" content="Ahmed Sidi Mohamed">
+  <meta name="generator" content="Hugo 0.140.2">
+
+  <!-- theme meta -->
+  <meta name="theme-name" content="gofolium-hugo" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://ahmed78.me/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://ahmed78.me/plugins/themify-icons/themify-icons.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://localhost:1313/scss/style.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="http://localhost:1313/images/favicon.png" type="image/x-icon">
+
+  
+  <script async src="https://rum.cronitor.io/script.js"></script>
+  <script>
+      window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+      cronitor('config', { clientKey: 'b8b0ec6fcfcb76528efd0b721332d5d9' });
+  </script>
+
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+	<div id="particles-js"></div>
+	<!-- navigation -->
+<header class="sticky-top bg-black">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <a class="navbar-brand" href="/"><img style="height: 50px;" class="img-fluid" src="http://localhost:1313/images/logo/logo.png" alt="Ahmed Sidi Mohamed | portfolio"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/#home">Home</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/#about">About</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/#project">Project</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/#blog">Blog</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
+          
+          
+          <li class="nav-item">
+            
+            
+          </li>
+        </ul>
+
+        
+        <!-- navigation button -->
+        <a href="http://localhost:1313/contact" class="btn btn-primary ml-lg-4">contact</a>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+	<section class="section">
+  <div class="container text-left text-sm-center">
+    <h2>Classification of Musical Genres</h2>
+  </div>
+</section>
+	
+
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <article class="col-lg-8 col-md-10 mx-auto" data-file="http://localhost:1313/projects/project-4/" data-target="article">
+        <div class="text-center">
+          <img src="http://localhost:1313/images/projects/music-classification.png" alt="" class="img-fluid mb-4"> 
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item"><i class="text-primary ti-calendar mr-2"></i>24 Jan, 2024</li>
+            <li class="list-inline-item"><i class="text-primary ti-time mr-2"></i><span class="eta"></span> read</li>
+            
+          </ul>
+          
+        </div>
+        <div class="content mt-5">
+          <p>This project implements a comprehensive solution for automatic music genre classification through a microservices architecture. The system combines classical machine learning and deep learning approaches to achieve robust genre classification accuracy on audio inputs.</p>
+<h4 id="system-architecture">System Architecture</h4>
+<p>The application is built on a microservices architecture with three main components:</p>
+<ol>
+<li>
+<p><strong>Classification Service</strong></p>
+<ul>
+<li>Implements two parallel classification models:
+<ul>
+<li>SVM classifier using extracted audio features (MFCC, spectral centroid, zero-crossing rate)</li>
+<li>VGG19 deep learning model trained on mel-spectrograms</li>
+</ul>
+</li>
+<li>RESTful API endpoints for model inference</li>
+<li>Audio preprocessing pipeline for feature extraction</li>
+</ul>
+</li>
+<li>
+<p><strong>Frontend Service</strong></p>
+<ul>
+<li>Streamlit-based web interface</li>
+<li>Real-time audio file upload and processing</li>
+<li>Interactive visualization of classification results</li>
+<li>Model performance metrics display</li>
+</ul>
+</li>
+<li>
+<p><strong>Orchestration Layer</strong></p>
+<ul>
+<li>Docker containers for each service</li>
+<li>Jenkins pipeline for automated testing and deployment</li>
+<li>Load balancing and service discovery</li>
+<li>Azure cloud infrastructure management</li>
+</ul>
+</li>
+</ol>
+<h4 id="technical-implementation">Technical Implementation</h4>
+<p><strong>Audio Processing Pipeline</strong></p>
+<ul>
+<li>Audio file validation and format standardization</li>
+<li>Feature extraction using librosa:
+<ul>
+<li>Mel-frequency cepstral coefficients (MFCCs)</li>
+<li>Spectral features (centroid, rolloff, bandwidth)</li>
+<li>Temporal features (zero-crossing rate, RMS energy)</li>
+</ul>
+</li>
+<li>Mel-spectrogram generation for deep learning model</li>
+</ul>
+<p><strong>Machine Learning Models</strong></p>
+<ul>
+<li>
+<p>Support Vector Machine (SVM):</p>
+<ul>
+<li>Kernel: RBF with optimized parameters</li>
+<li>Feature scaling and normalization</li>
+<li>Cross-validation for model evaluation</li>
+</ul>
+</li>
+<li>
+<p>VGG19 Neural Network:</p>
+<ul>
+<li>Transfer learning from ImageNet weights</li>
+<li>Fine-tuning on GTZAN dataset</li>
+<li>Data augmentation techniques for robust training</li>
+<li>Batch normalization and dropout for regularization</li>
+</ul>
+</li>
+</ul>
+<p><strong>Deployment Infrastructure</strong></p>
+<ul>
+<li>
+<p>Containerized services with Docker:</p>
+<ul>
+<li>Base image optimization for reduced size</li>
+<li>Multi-stage builds for production deployment</li>
+<li>Volume mapping for model persistence</li>
+</ul>
+</li>
+<li>
+<p>CI/CD Pipeline:</p>
+<ul>
+<li>Automated testing with pytest</li>
+<li>Code quality checks with SonarQube</li>
+<li>Automated Docker image building and pushing</li>
+<li>Blue-green deployment strategy</li>
+</ul>
+</li>
+</ul>
+<h4 id="performance-and-metrics">Performance and Metrics</h4>
+<ul>
+<li>
+<p>Model Accuracy:</p>
+<ul>
+<li>SVM: 78% accuracy on test set</li>
+<li>VGG19: 85% accuracy on test set</li>
+<li>Ensemble approach: 87% accuracy</li>
+</ul>
+</li>
+<li>
+<p>System Performance:</p>
+<ul>
+<li>Average response time: &lt;2 seconds</li>
+<li>Concurrent user support: up to 100</li>
+<li>API throughput: 50 requests/second</li>
+</ul>
+</li>
+</ul>
+<h4 id="development-workflow">Development Workflow</h4>
+<p>The project followed an agile development methodology:</p>
+<ol>
+<li>
+<p><strong>Planning Phase</strong></p>
+<ul>
+<li>Architecture design and component specification</li>
+<li>Technology stack selection</li>
+<li>Development roadmap creation</li>
+</ul>
+</li>
+<li>
+<p><strong>Implementation Phase</strong></p>
+<ul>
+<li>Iterative development of services</li>
+<li>Regular integration testing</li>
+<li>Performance optimization</li>
+</ul>
+</li>
+<li>
+<p><strong>Deployment Phase</strong></p>
+<ul>
+<li>Infrastructure setup on Azure</li>
+<li>CI/CD pipeline configuration</li>
+<li>Production deployment and monitoring</li>
+</ul>
+</li>
+</ol>
+<h4 id="future-improvements">Future Improvements</h4>
+<ul>
+<li>Implementation of real-time audio classification</li>
+<li>Addition of more sophisticated ensemble methods</li>
+<li>Integration of user feedback for model improvement</li>
+<li>Expansion of supported audio formats</li>
+<li>Implementation of A/B testing framework</li>
+</ul>
+<p><a href="https://github.com/yourusername/music-classification">View Project Repository</a></p>
+<p><a href="https://your-demo-url.com">Live Demo</a></p>
+
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <ul class="list-inline social-icons mb-5">
+          
+          <li class="list-inline-item"><a href="https://github.com/ahmed00078/"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/ahmed-sidi-mohamed/"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        <hr class="mx-auto border-default" style="width: 90px;">
+        <p class="mt-5"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://ahmed78.me/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://ahmed78.me/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://ahmed78.me/plugins/particles/particles.min.js"></script>
+
+<script src="https://ahmed78.me/plugins/particles/stats.min.js"></script>
+
+<script src="https://ahmed78.me/plugins/reading-time/readingTime.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="http://localhost:1313/js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'G-SK6EP7F2KK', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+
+</html>
