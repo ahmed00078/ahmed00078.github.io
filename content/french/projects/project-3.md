@@ -1,6 +1,6 @@
 ---
 title: "Car Rental Mobile App for car rental"
-date: 2024-05-8T15:40:24+06:00
+date: 2024-05-08T15:40:24+06:00
 # Project thumb
 image : "images/projects/car-rental.png"
 draft: false

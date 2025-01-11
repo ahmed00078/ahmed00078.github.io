@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ahmed Sidi Mohamed | portfolio</title>
+    <link>http://localhost:1313/fr/tags/</link>
+    <description>Recent content in Tags on Ahmed Sidi Mohamed | portfolio</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <copyright>Droit d&#39;auteur &amp;copy; 2024 par [Ahmed Sidi Mohamed](https://www.linkedin.com/in/ahmed-sidi-mohamed)</copyright>
+    <atom:link href="http://localhost:1313/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

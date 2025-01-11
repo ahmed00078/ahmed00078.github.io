@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Ahmed Sidi Mohamed | portfolio</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Ahmed Sidi Mohamed | portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2024 by [Ahmed Sidi Mohamed](https://www.linkedin.com/in/ahmed-sidi-mohamed)</copyright>
+    <lastBuildDate>Sat, 18 May 2024 15:40:24 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design and development of a web platform meeting the needs of pets</title>
+      <link>http://localhost:1313/projects/project-1/</link>
+      <pubDate>Sat, 18 May 2024 15:40:24 +0600</pubDate>
+      <guid>http://localhost:1313/projects/project-1/</guid>
+      <description>&lt;p&gt;This project aims to develop a comprehensive web platform to meet the needs of pet product companies, pet owners and pet-related service providers. The application was designed and implemented by a team of three developers working in close collaboration: &lt;a href=&#34;https://www.linkedin.com/in/mahmoud-lassoued/&#34;&gt;LASSOUED Mahmoud&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/mariem-gsaier/&#34;&gt;GSAIER Mariem&lt;/a&gt; and &lt;a href=&#34;https://www.linkedin.com/in/ahmed-sidi-mohamed/&#34;&gt;SIDI MOHAMED Ahmed&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Car Rental Mobile App for car rental</title>
+      <link>http://localhost:1313/projects/project-3/</link>
+      <pubDate>Wed, 08 May 2024 15:40:24 +0600</pubDate>
+      <guid>http://localhost:1313/projects/project-3/</guid>
+      <description>&lt;p&gt;Car Rental Mobile App is a cross-platform mobile application providing a seamless experience for car rentals. Developed with the Ionic framework, it offers an intuitive user interface, while the backend built with ExpressJs ensures robust integration with APIs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maze Bank - User-friendly library  management  system</title>
+      <link>http://localhost:1313/projects/project-2/</link>
+      <pubDate>Mon, 15 Jan 2024 15:40:24 +0600</pubDate>
+      <guid>http://localhost:1313/projects/project-2/</guid>
+      <description>&lt;p&gt;BiblioManager is a library management application offering an intuitive user interface developed with JavaFX. It allows efficient management of book collections, borrowing and member memberships.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
