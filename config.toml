@@ -3,7 +3,7 @@ baseURL = "https://ahmed78.me/"
 title = "Ahmed Sidi Mohamed | portfolio"
 theme = "gofolium"
 # post pagination
-paginate = "4"
+paginate = "3"
 # post excerpt
 summaryLength = "10"
 # disable language
