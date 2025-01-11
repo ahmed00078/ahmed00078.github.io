@@ -2,7 +2,7 @@
 title: "Classification of Musical Genres"
 date: 2024-01-10T15:40:24+06:00
 image: "images/projects/music-classification.png"
-draft: false
+draft: true
 description: "A microservices architecture for automatic music genre classification using machine learning and deep learning approaches"
 ---
 
