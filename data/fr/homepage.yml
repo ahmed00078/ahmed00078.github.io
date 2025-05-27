@@ -76,7 +76,7 @@ blog:
 contact_form:
   enable: true
   title: "Contactez moi"
-  contact_form_action: "#" #contact form works with https://formspree.io
+  contact_form_action: "https://api.web3forms.com/submit" #contact form works with https://formspree.io
   name_label : "Votre nom"
   email_label : "Votre email"
   textarea_label : "Votre message"
