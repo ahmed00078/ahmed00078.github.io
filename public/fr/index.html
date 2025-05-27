@@ -345,15 +345,9 @@
       
       <div class="col-lg-6 mb-5 mb-lg-0">
         <h2 class="mb-4 mb-lg-5">Contactez moi</h2>
-        <form action="https://api.staticforms.xyz/submit" method="POST">
-          <!-- Required: Your Static Forms API key -->
-          <input type="hidden" name="apiKey" value="sf_akn1l1cg2edk7fk3fc50nf6b">
-          
-          <!-- Enable reply-to functionality -->
-          <input type="hidden" name="replyTo" value="@">
-          
-          <!-- Anti-spam honeypot field -->
-          <input type="text" name="honeypot" style="display: none" tabindex="-1" autocomplete="off">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="fa12f842-71b2-47f7-aab1-f588e9eea4bb ">
 
           <div class="form-group mb-4">
             <label for="name">Votre nom</label>
@@ -368,12 +362,7 @@
             <textarea class="form-control" id="message" name="message" placeholder="Votre message"></textarea>
           </div>
 
-          <!-- reCAPTCHA integration -->
-          <div class="g-recaptcha" data-sitekey="6LdES0srAAAAALSc14CHxZk3W6FaHG2ExjVDFKXg"></div>
-          <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-          
-          <!-- Optional redirect URLs -->
-          <input type="hidden" name="redirectTo" value="https://example.com/success">
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
 
           <button class="btn btn-primary" type="submit" value="send">Envoyer maintenant</button>
         </form>
