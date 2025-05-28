@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="fr-fr"><head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK6EP7F2KK"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+<html lang="fr-fr"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
-    gtag('config', 'G-SK6EP7F2KK');
-  </script>
-<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK6EP7F2KK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-SK6EP7F2KK');
+</script>
+
   <meta charset="utf-8">
   <title>Hack the Box — Starting Point — Meow Machine write up</title>
 
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="This is meta description">
   <meta name="author" content="Ahmed Sidi Mohamed">
-  <meta name="generator" content="Hugo 0.140.2">
+  <meta name="generator" content="Hugo 0.147.6">
 
   <!-- theme meta -->
   <meta name="theme-name" content="gofolium-hugo" />
@@ -159,40 +159,31 @@
 <p>Now, proceed to tackle the tasks provided by the Meow machine. I&rsquo;ve summarized the answers to each task below:</p>
 <blockquote>
 <p><strong>VM Acronym:</strong> <br>
-Virtual Machine</p>
-</blockquote>
+Virtual Machine</p></blockquote>
 <blockquote>
 <p><strong>Tool for Command Line Interaction:</strong> <br>
-Terminal</p>
-</blockquote>
+Terminal</p></blockquote>
 <blockquote>
 <p><strong>Service for VPN Connection to HTB labs:</strong> <br>
-OpenVPN</p>
-</blockquote>
+OpenVPN</p></blockquote>
 <blockquote>
 <p><strong>Abbreviated Name for &lsquo;Tunnel Interface&rsquo;:</strong> <br>
-tun</p>
-</blockquote>
+tun</p></blockquote>
 <blockquote>
 <p><strong>Tool for ICMP Echo Requests:</strong> <br>
-Ping</p>
-</blockquote>
+Ping</p></blockquote>
 <blockquote>
 <p><strong>Common Tool for Finding Open Ports:</strong> <br>
-Nmap</p>
-</blockquote>
+Nmap</p></blockquote>
 <blockquote>
 <p><strong>Service on Port 23/tcp:</strong> <br>
-Telnet</p>
-</blockquote>
+Telnet</p></blockquote>
 <blockquote>
 <p><strong>Username for Telnet Login (Blank Password):</strong> <br>
-root (Try admin or administrator if root fails)</p>
-</blockquote>
+root (Try admin or administrator if root fails)</p></blockquote>
 <blockquote>
 <p><strong>Submit Root Flag:</strong> <br>
-Conduct an nmap scan on the target IP, identifying an open port 23/tcp with the Telnet service. Use the command <code>telnet [Target_IP]</code> in the terminal, providing &ldquo;root&rdquo; as the username. Execute the <code>ls</code> command to list available directories/files, locate &ldquo;flag.txt,&rdquo; and use <code>cat flag.txt</code> to view its content. Copy the flag value and submit it in the browser.</p>
-</blockquote>
+Conduct an nmap scan on the target IP, identifying an open port 23/tcp with the Telnet service. Use the command <code>telnet [Target_IP]</code> in the terminal, providing &ldquo;root&rdquo; as the username. Execute the <code>ls</code> command to list available directories/files, locate &ldquo;flag.txt,&rdquo; and use <code>cat flag.txt</code> to view its content. Copy the flag value and submit it in the browser.</p></blockquote>
 <p>Upon successful completion, you&rsquo;ll receive a <code>&quot;Meow has been Pwned&quot;</code> message.</p>
 <p>In conclusion, by running an nmap scan on <code>[target_ip]</code>, we discovered an open port 23/tcp with the Telnet service. Connecting to the target server using telnet <code>[target_ip]</code> with the &ldquo;root&rdquo; username, we navigated through directories, found &ldquo;flag.txt,&rdquo; and solved the challenge. Happy hacking!</p>
 

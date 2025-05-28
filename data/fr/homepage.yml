@@ -81,6 +81,7 @@ contact_form:
   email_label : "Votre email"
   textarea_label : "Votre message"
   button_label : "Envoyer maintenant"
+  home_link: https://ahmed78.me/fr/
 
 # contact info
 contact_info:

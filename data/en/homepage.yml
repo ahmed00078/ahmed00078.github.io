@@ -96,6 +96,7 @@ contact_form:
   email_label : "Your Email"
   textarea_label : "Your Message"
   button_label : "Send Now"
+  home_link: https://ahmed78.me/
 
 # contact info
 contact_info:

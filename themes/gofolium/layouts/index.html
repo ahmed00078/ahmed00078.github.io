@@ -198,6 +198,9 @@
         <h2 class="mb-4 mb-lg-5">{{ .title | markdownify }}</h2>
         <form action="{{ .contact_form_action }}" method="POST">
           <div class="form-group mb-4">
+            <input type="hidden" name="access_key" value="fa12f842-71b2-47f7-aab1-f588e9eea4bb">
+          </div>
+          <div class="form-group mb-4">
             <label for="name">{{ .name_label }}</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="{{ .name_label }}">
           </div>
@@ -209,6 +212,7 @@
             <label for="message">{{ .textarea_label }}</label>
             <textarea class="form-control" id="message" name="message" placeholder="{{ .textarea_label }}"></textarea>
           </div>
+          <input type="hidden" name="redirect" value="{{ .home_link }}">
           <button class="btn btn-primary" type="submit" value="send">{{ .button_label }}</button>
         </form>
       </div>
