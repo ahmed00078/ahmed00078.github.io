@@ -2,263 +2,263 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://ahmed78.me/</loc>
     <lastmod>2024-05-18T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/"
+                href="https://ahmed78.me/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/"
+                href="https://ahmed78.me/"
                 />
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>https://ahmed78.me/contact/</loc>
     <lastmod>2024-05-18T15:40:24+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/project-1/</loc>
+    <loc>https://ahmed78.me/projects/project-1/</loc>
     <lastmod>2024-05-18T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/projects/project-1/"
+                href="https://ahmed78.me/fr/projects/project-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/projects/project-1/"
+                href="https://ahmed78.me/projects/project-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/projects/project-3/</loc>
+    <loc>https://ahmed78.me/projects/project-3/</loc>
     <lastmod>2024-05-08T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/projects/project-3/"
+                href="https://ahmed78.me/fr/projects/project-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/projects/project-3/"
+                href="https://ahmed78.me/projects/project-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blogs/blog-1/</loc>
+    <loc>https://ahmed78.me/blogs/blog-1/</loc>
     <lastmod>2024-04-17T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/blogs/blog-1/"
+                href="https://ahmed78.me/fr/blogs/blog-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/blogs/blog-1/"
+                href="https://ahmed78.me/blogs/blog-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/projects/project-2/</loc>
+    <loc>https://ahmed78.me/projects/project-2/</loc>
     <lastmod>2024-01-15T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/projects/project-2/"
+                href="https://ahmed78.me/fr/projects/project-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/projects/project-2/"
+                href="https://ahmed78.me/projects/project-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/publications/publication-1/</loc>
+    <loc>https://ahmed78.me/publications/publication-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/publications/publication-1/"
+                href="https://ahmed78.me/fr/publications/publication-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publications/publication-1/"
+                href="https://ahmed78.me/publications/publication-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/publications/publication-2/</loc>
+    <loc>https://ahmed78.me/publications/publication-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/publications/publication-2/"
+                href="https://ahmed78.me/fr/publications/publication-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publications/publication-2/"
+                href="https://ahmed78.me/publications/publication-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/publications/publication-3/</loc>
+    <loc>https://ahmed78.me/publications/publication-3/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/publications/publication-3/"
+                href="https://ahmed78.me/fr/publications/publication-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publications/publication-3/"
+                href="https://ahmed78.me/publications/publication-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/talks/talk-1/</loc>
+    <loc>https://ahmed78.me/talks/talk-1/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/talks/talk-1/"
+                href="https://ahmed78.me/fr/talks/talk-1/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/talks/talk-1/"
+                href="https://ahmed78.me/talks/talk-1/"
                 />
   </url><url>
-    <loc>http://localhost:1313/talks/talk-2/</loc>
+    <loc>https://ahmed78.me/talks/talk-2/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/talks/talk-2/"
+                href="https://ahmed78.me/fr/talks/talk-2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/talks/talk-2/"
+                href="https://ahmed78.me/talks/talk-2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/talks/talk-3/</loc>
+    <loc>https://ahmed78.me/talks/talk-3/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/talks/talk-3/"
+                href="https://ahmed78.me/fr/talks/talk-3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/talks/talk-3/"
+                href="https://ahmed78.me/talks/talk-3/"
                 />
   </url><url>
-    <loc>http://localhost:1313/talks/talk-4/</loc>
+    <loc>https://ahmed78.me/talks/talk-4/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/talks/talk-4/"
+                href="https://ahmed78.me/fr/talks/talk-4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/talks/talk-4/"
+                href="https://ahmed78.me/talks/talk-4/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
+    <loc>https://ahmed78.me/blogs/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/blogs/"
+                href="https://ahmed78.me/fr/blogs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/blogs/"
+                href="https://ahmed78.me/blogs/"
                 />
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://ahmed78.me/projects/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/projects/"
+                href="https://ahmed78.me/fr/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/projects/"
+                href="https://ahmed78.me/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>https://ahmed78.me/publications/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/publications/"
+                href="https://ahmed78.me/fr/publications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/publications/"
+                href="https://ahmed78.me/publications/"
                 />
   </url><url>
-    <loc>http://localhost:1313/talks/</loc>
+    <loc>https://ahmed78.me/talks/</loc>
     <lastmod>2020-03-14T15:40:24+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/talks/"
+                href="https://ahmed78.me/fr/talks/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/talks/"
+                href="https://ahmed78.me/talks/"
                 />
   </url><url>
-    <loc>http://localhost:1313/author/george-cushen/</loc>
+    <loc>https://ahmed78.me/author/george-cushen/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/author/george-cushen/"
+                href="https://ahmed78.me/fr/author/george-cushen/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/author/george-cushen/"
+                href="https://ahmed78.me/author/george-cushen/"
                 />
   </url><url>
-    <loc>http://localhost:1313/author/</loc>
+    <loc>https://ahmed78.me/author/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/author/"
+                href="https://ahmed78.me/fr/author/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/author/"
+                href="https://ahmed78.me/author/"
                 />
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://ahmed78.me/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/categories/"
+                href="https://ahmed78.me/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/categories/"
+                href="https://ahmed78.me/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://ahmed78.me/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://ahmed78.me/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/tags/"
+                href="https://ahmed78.me/tags/"
                 />
   </url>
 </urlset>

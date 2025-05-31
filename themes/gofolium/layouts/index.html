@@ -12,6 +12,9 @@
         <h1 class="display-1 font-weight-bold title mb-4">{{ .title | markdownify }}</h1>
         <p class="h3 mb-5">{{ .subtitle | markdownify }}</p>
         {{ end }}
+
+        
+
         {{ if $data.homepage.banner.social }}
         <ul class="list-inline social-icons">
           {{ range .Site.Params.social }}
@@ -40,6 +43,15 @@
         <p>{{ .content | markdownify }}</p>
       </div>
     </div>
+    <!-- NOUVEAU: Bouton de téléchargement CV -->
+    <div class="cv-download-section mb-5">
+      <a href="{{ " files/Ahmed_Sidi_Mohamed_CV.pdf" | absURL }}" class="btn-cv-download"
+        download="Ahmed_Sidi_Mohamed_CV.pdf" target="_blank">
+        <i class="fas fa-download"></i>
+        <span>{{ .download_cv }}</span>
+        <div class="btn-shine"></div>
+      </a>
+    </div>
   </div>
 </section>
 {{ end }}
@@ -49,26 +61,51 @@
 <!-- education -->
 {{ if $data.homepage.education.enable }}
 {{ with $data.homepage.education }}
+<!-- Enhanced Education Section -->
 <section class="section pb-0" id="education">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
-        <h2>{{ .title | markdownify }}</h2>
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title">
+          <i class="fas fa-graduation-cap"></i> {{ .title }}
+        </h2>
       </div>
-      <div class="col-lg-8">
-        <div class="row justify-content-around">
-          {{ range .education_item }}
-          <div class="col-lg-5 col-sm-6 mb-4">
-            <h4 class="title-border">{{ .name }}</h4>
-            <p>{{ .duration }}
-            <br>{{ .academy }}</p>
+    </div>
+
+    <div class="education-timeline">
+      {{ range $index, $education := .education_item }}
+      <div class="education-item {{ if eq (mod $index 2) 0 }}left{{ else }}right{{ end }}">
+        <div class="education-card">
+          <div class="education-icon">
+            <i class="{{ $education.icon | default " fas fa-graduation-cap" }}"></i>
           </div>
-          {{ end }}
+
+          <div class="education-content">
+            <h3 class="degree-title">{{ $education.name }}</h3>
+            {{ if $education.degree }}
+            <h4 class="degree-subtitle">{{ $education.degree }}</h4>
+            {{ end }}
+            <p class="institution">{{ $education.academy }}</p>
+            {{ if $education.location }}
+            <p class="location">
+              <i class="fas fa-map-marker-alt"></i> {{ $education.location }}
+            </p>
+            {{ end }}
+            <span class="duration">{{ $education.duration }}</span>
+
+            {{ if $education.description }}
+            <div class="education-description">
+              <p>{{ $education.description }}</p>
+            </div>
+            {{ end }}
+          </div>
         </div>
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
+
 {{ end }}
 {{ end }}
 <!-- /education -->
@@ -76,25 +113,84 @@
 <!-- Expertise -->
 {{ if $data.homepage.expertise.enable }}
 {{ with $data.homepage.expertise }}
+<!-- Enhanced Experience Section -->
 <section class="section pb-0" id="expertise">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
-        <h2>{{ .title | markdownify }}</h2>
+      <div class="col-12 text-center mb-5">
+        <h2 class="section-title">
+          <i class="fas fa-briefcase"></i> {{ .title }}
+        </h2>
       </div>
-      <div class="col-lg-8">
-        <div class="row justify-content-around">
-          {{ range .expertise_item }}
-          <div class="col-lg-5 col-sm-6 mb-4">
-            <h4 class="title-border">{{ .name }}</h4>
-            <p>{{ .content | markdownify }}</p>
+    </div>
+
+    <div class="experience-grid">
+      {{ range .expertise_item }}
+      <div class="experience-card">
+        <div class="company-header">
+          <div class="company-logo">
+            {{ if .logo }}{{ .logo }}{{ else }}{{ substr .company 0 2 | upper }}{{ end }}
+          </div>
+          <div class="company-info">
+            <h3 class="position">{{ .position }}</h3>
+            <h4 class="company">{{ .company }}</h4>
+            <div class="meta-info">
+              {{ if .location }}
+              <span class="location">
+                <i class="fas fa-map-marker-alt"></i> {{ .location }}
+              </span>
+              {{ end }}
+              <span class="duration">
+                <i class="fas fa-calendar"></i> {{ .duration }}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {{ if .description }}
+        <p class="description">{{ .description }}</p>
+        {{ end }}
+
+        <div class="achievements-section">
+          {{ if .achievements }}
+          <div class="achievement-group">
+            <h5><i class="fas fa-star"></i> Key Achievements</h5>
+            <ul class="achievement-list">
+              {{ range .achievements }}
+              <li><i class="fa-solid fa-play"></i>  {{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+
+          {{ if .impact_metrics }}
+          <div class="achievement-group">
+            <h5><i class="fas fa-chart-line"></i> Impact Metrics</h5>
+            <ul class="achievement-list metrics">
+              {{ range .impact_metrics }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
           </div>
           {{ end }}
         </div>
+
+        {{ if .technologies }}
+        <div class="tech-stack">
+          <h5><i class="fas fa-code"></i> Technologies</h5>
+          <div class="tech-tags">
+            {{ range .technologies }}
+            <span class="tech-tag">{{ . }}</span>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
+
 {{ end }}
 {{ end }}
 <!-- /Expertise -->

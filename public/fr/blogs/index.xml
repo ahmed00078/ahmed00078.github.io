@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogues on Ahmed Sidi Mohamed | portfolio</title>
-    <link>http://localhost:1313/fr/blogs/</link>
+    <link>https://ahmed78.me/fr/blogs/</link>
     <description>Recent content in Blogues on Ahmed Sidi Mohamed | portfolio</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Droit d&#39;auteur &amp;copy; 2024 par [Ahmed Sidi Mohamed](https://www.linkedin.com/in/ahmed-sidi-mohamed)</copyright>
-    <lastBuildDate>Wed, 17 Apr 2024 15:40:24 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/fr/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate>
+    <atom:link href="https://ahmed78.me/fr/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hack the Box — Starting Point — Meow Machine write up</title>
-      <link>http://localhost:1313/fr/blogs/blog-1/</link>
+      <link>https://ahmed78.me/fr/blogs/blog-1/</link>
       <pubDate>Wed, 17 Apr 2024 15:40:24 +0600</pubDate>
-      <guid>http://localhost:1313/fr/blogs/blog-1/</guid>
-      <description>&lt;p&gt;Welcome to my first write-up on Hack the Box! In this article, I&amp;rsquo;ll guide you through the steps to conquer the &amp;ldquo;Meow&amp;rdquo; machine, a part of the &amp;lsquo;Starting Point&amp;rsquo; labs with a &amp;lsquo;Very Easy&amp;rsquo; difficulty rating.&lt;/p&gt;</description>
+      <guid>https://ahmed78.me/fr/blogs/blog-1/</guid>
+      <description>Welcome to my first write-up on Hack the Box! In this article, I&amp;rsquo;ll guide you through the steps to conquer the &amp;ldquo;Meow&amp;rdquo; machine, a part of the &amp;lsquo;Starting Point&amp;rsquo; labs with a &amp;lsquo;Very Easy&amp;rsquo; difficulty rating.</description>
     </item>
   </channel>
 </rss>

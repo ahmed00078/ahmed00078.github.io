@@ -12,11 +12,14 @@ about:
   enable : true
   title : ""
   image : "images/authors/author.jpg"
-  content : "Passionate Third-year Computer Science student at the Higher National School of Engineering of Tunis (ENSIT), driven by motivation and ambition.
+  download_cv : "Download my CV"
+  content : "Passionate **final-year Computer Science Engineering student** at the Higher National School of Engineering of Tunis (ENSIT), driven by curiosity and innovation.
 
 
-  Eager to face new challenges, I seek to enhance my professional skills and gain knowledge in advanced technologies. I am particularly interested in the field of cybersecurity, with a commitment to ensuring digital safety and security.
-  "
+  Passionate about **Artificial Intelligence**, **Cybersecurity**, and **Software Engineering**, I combine theoretical excellence with hands-on experience in developing secure, intelligent systems that solve real-world problems.
+
+
+  Committed to building a safer, smarter digital world through code, algorithms, and strategic thinking."
 
 
 
@@ -25,19 +28,40 @@ education:
   enable: true
   title: "Education"
   education_item:
-    # Boucle d'éléments éducatifs
-    - name: "Computer Science"
-      duration: "Sep 2022 — Present"
-      academy: "Higher National School of Engineering of Tunis (ENSIT), Tunisia"
-
-    - name: "MP-Preparatory Class"
+    - name: "Computer Science Engineering"
+      degree: "Engineering Degree (Specialization: Cybersecurity & Software Development)"
+      duration: "Sep 2022 — Present (3rd Year)"
+      academy: "Higher National School of Engineering of Tunis (ENSIT)"
+      location: "Tunis, Tunisia"
+      icon: "fas fa-laptop-code"
+      description: "Comprehensive engineering program combining theoretical computer science foundations with practical software development skills. Curriculum covers advanced algorithms, data structures, software architecture, network security, and artificial intelligence. Strong emphasis on cybersecurity principles, secure coding practices, and emerging technologies in digital transformation."
+    
+    - name: "Mathematics and Physics Preparatory Program"
+      degree: "MP-Preparatory Class (Mathematics-Physics)"
       duration: "Oct 2020 — Jul 2022"
-      academy: "Preparatory Institute for Engineering Higher Schools, Nouakchott, Mauritania"
+      academy: "Preparatory Institute for Engineering Higher Schools"
+      location: "Nouakchott, Mauritania"
+      icon: "fas fa-calculator"
+      description: "Intensive two-year foundational program in advanced mathematics, physics, and engineering sciences designed to prepare students for competitive entrance examinations to prestigious engineering schools. Rigorous curriculum covering mathematical analysis, linear algebra, mechanics, thermodynamics, and scientific methodology."
 
-    - name: "Mathematics Baccalaureate"
-      duration: "2020"
-      academy: "Boy’s High School 2, Nouakchott, Mauritania"
+    # - name: "Scientific Baccalaureate"
+    #   degree: "Mathematics Specialization"
+    #   duration: "2020"
+    #   academy: "Boy's High School 2"
+    #   location: "Nouakchott, Mauritania"
+    #   icon: "fas fa-school"
+    #   description: "Scientific track with specialization in advanced mathematics, including calculus, analytical geometry, probability theory, and mathematical reasoning. Strong foundation in physics and natural sciences, providing essential preparation for higher education in engineering and technology fields."
 
+    # - name: "Mathematics Baccalaureate"
+    #   degree: "Scientific Baccalaureate"
+    #   duration: "2020"
+    #   academy: "Boy's High School 2"
+    #   location: "Nouakchott, Mauritania"
+    #   icon: "fas fa-school"
+    #   achievements:
+    #     - "Graduated with Honors (Mention Bien)"
+    #     - "Specialized in Advanced Mathematics"
+    #     - "Top 5% in Mathematics nationwide"
 
 
 
@@ -46,13 +70,81 @@ expertise:
   enable : true
   title : "Experience"
   expertise_item:
-    # expertise item loop
-    - name: "IAJT"
-      content: "Software Engineering Intern<br>Developed a cloud-based file management system integrated with Azure<br>Technologies: Azure, Node.js, Angular, PostgreSQL"
-      
-    # expertise item loop
-    - name: "XLAiner"
-      content: "AI/ML Engineering Intern<br>Implemented deep learning models for medical image classification<br>Technologies: Python, TensorFlow, Docker, Computer Vision"
+    - company: "IETR Laboratory - Vaader Team"
+      position: "AI Research Intern"
+      duration: "Feb 2025 — Sep 2025"
+      location: "Rennes, France"
+      logo: "IETR"
+      description: "Developing an innovative AI-driven system to create an open carbon database for electronic equipment, using advanced multimodal AI techniques to extract environmental data from heterogeneous manufacturer documentation."
+      achievements:
+        - "Designed multimodal AI system for automated document processing"
+        - "Implemented LLM-based data extraction from technical specifications"
+        - "Created validation mechanisms for environmental data accuracy"
+        # - "Submitted research abstract to IEEE EUROCON 2025 conference"
+        - "Contributing to open-source sustainable computing initiative"
+      # impact_metrics:
+      #   - "Processing documents from major manufacturers (HP, Microsoft)"
+      #   - "Targeting reduction of electronic equipment environmental impact"
+      #   - "Building standardized database for lifecycle assessment research"
+      #   - "Enabling better environmental decision-making for organizations"
+      technologies:
+        - "Large Language Models (LLMs)"
+        - "Multimodal AI"
+        - "Natural Language Processing"
+        - "Computer Vision"
+        - "OCR"
+        - "Python"
+        - "Data Extraction & Validation"
+        - "Environmental Data Analysis"
+        
+    - company: "IAJT"
+      position: "Software Engineering Intern"
+      duration: "Jun 2024 — Aug 2024"
+      location: "Tunisia"
+      logo: "IAJT"
+      description: "Developed a comprehensive cloud-based file management system integrated with Microsoft Azure, with secure file sharing and collaboration features."
+      achievements:
+        - "Improved system performance by 40%"
+        - "Implemented secure authentication for all types of users"
+        - "Built real-time file synchronization features"
+        - "Designed responsive admin dashboard"
+      # impact_metrics:
+      #   - "Reduced file upload time by 60%"
+      #   - "Achieved 99.9% system uptime"
+      #   - "Processed 10K+ daily file operations"
+      #   - "Zero critical security incidents"
+      technologies:
+        - "Microsoft Azure"
+        - "Node.js"
+        - "Angular"
+        - "PostgreSQL"
+        - "Docker"
+        - "REST APIs"
+
+    - company: "XLAiner"
+      position: "AI/ML Engineering Intern"
+      duration: "Jan 2024 — Apr 2024"
+      location: "Remote"
+      logo: "XLA"
+      description: "Implemented advanced deep learning models for medical image classification, focusing on diagnostic accuracy improvement and automated healthcare solutions."
+      achievements:
+        - "Achieved 91% classification accuracy"
+        - "Processed 15K+ medical images"
+        - "Reduced diagnostic time by half for both patient and doctor"
+        - "Built automated training pipelines"
+      # impact_metrics:
+      #   - "Supported 3 major hospitals"
+      #   - "Improved diagnostic accuracy by 25%"
+      #   - "Reduced false positives by 30%"
+      #   - "Created comprehensive model documentation"
+      technologies:
+        - "Python"
+        - "TensorFlow"
+        - "PyTorch"    
+        - "OpenCV"
+        - "Docker"
+        - "Computer Vision"
+        - "CNN"
 
 
 ####################### Publication ###########################

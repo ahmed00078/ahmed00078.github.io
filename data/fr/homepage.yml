@@ -8,44 +8,142 @@ banner:
 
 ####################### About ##############################
 about:
-  enable: true
-  title: ""
-  image: "images/author.jpg"
-  content: "Étudiant passionné de deuxième année d'informatique à l'Ecole Nationale Supérieure d'Ingénieurs de Tunis (ENSIT), animé par la motivation et l'ambition.
+  enable : true
+  title : ""
+  image : "images/authors/author.jpg"
+  download_cv : "Télécharger mon CV"
+  content : "Étudiant passionné en **dernière année de Génie Informatique** à l'École Nationale Supérieure d'Ingénieurs de Tunis (ENSIT), animé par la curiosité et l'innovation.
 
 
-   Désireux de relever de nouveaux défis, je cherche à valoriser mes compétences professionnelles et à acquérir des connaissances dans les technologies de pointe. Je suis particulièrement intéressé par le domaine de la cybersécurité, avec un engagement à assurer la sûreté et la sécurité numérique."
+  Passionné par l'**Intelligence Artificielle**, la **Cybersécurité**, et l'**Ingénierie Logicielle**, je combine l'excellence théorique avec une expérience pratique dans le développement de systèmes intelligents et sécurisés qui résolvent des problèmes concrets.
+
+
+  Engagé à construire un monde numérique plus sûr et plus intelligent grâce au code, aux algorithmes et à la réflexion stratégique."
+
+
 
 ####################### Education ###########################
 education:
   enable: true
-  title: "Éducation"
+  title: "Formation"
   education_item:
-    # Boucle d'éléments éducatifs
-    - name: "Génie informatique"
-      duration: "Sep 2022 — Present"
-      academy: "École Nationale Supérieure d’Ingénieurs de Tunis"
-
-    - name: "MP-Classe préparatoire"
+    - name: "Ingénierie Informatique"
+      degree: "Diplôme d'Ingénieur (Spécialisation : Cybersécurité et Développement Logiciel)"
+      duration: "Sep 2022 — Présent (3ème Année)"
+      academy: "École Nationale Supérieure d'Ingénieurs de Tunis (ENSIT)"
+      location: "Tunis, Tunisie"
+      icon: "fas fa-laptop-code"
+      description: "Programme d'ingénierie complet combinant les fondements théoriques de l'informatique avec des compétences pratiques en développement logiciel. Le cursus couvre les algorithmes avancés, les structures de données, l'architecture logicielle, la sécurité réseau et l'intelligence artificielle. Accent particulier sur les principes de cybersécurité, les pratiques de codage sécurisé et les technologies émergentes en transformation numérique."
+    
+    - name: "Programme Préparatoire Mathématiques et Physique"
+      degree: "Classe Préparatoire MP (Mathématiques-Physique)"
       duration: "Oct 2020 — Jul 2022"
-      academy: "Institut préparatoire aux Grandes Ecoles d’ingénieurs, Nouakchott, Mauritania"
+      academy: "Institut Préparatoire aux Grandes Ecoles d'ingénieurs(IPGEI)"
+      location: "Nouakchott, Mauritanie"
+      icon: "fas fa-calculator"
+      description: "Programme fondamental intensif de deux ans en mathématiques avancées, physique et sciences de l'ingénieur conçu pour préparer les étudiants aux concours d'entrée des grandes écoles d'ingénieurs. Cursus rigoureux couvrant l'analyse mathématique, l'algèbre linéaire, la mécanique, la thermodynamique et la méthodologie scientifique."
 
-    - name: "Baccalauréat Mathématiques"
-      duration: "2020"
-      academy: "Lycée de Garçon 2, Nouakchott, Mauritania"
+    # - name: "Baccalauréat Scientifique"
+    #   degree: "Spécialisation Mathématiques"
+    #   duration: "2020"
+    #   academy: "Lycée Garçons 2"
+    #   location: "Nouakchott, Mauritanie"
+    #   icon: "fas fa-school"
+    #   description: "Filière scientifique avec spécialisation en mathématiques avancées, incluant le calcul différentiel, la géométrie analytique, la théorie des probabilités et le raisonnement mathématique. Solides fondements en physique et sciences naturelles, fournissant une préparation essentielle pour l'enseignement supérieur en ingénierie et technologies."
+
+    # - name: "Baccalauréat Mathématiques"
+    #   degree: "Baccalauréat Scientifique"
+    #   duration: "2020"
+    #   academy: "Lycée Garçons 2"
+    #   location: "Nouakchott, Mauritanie"
+    #   icon: "fas fa-school"
+    #   achievements:
+    #     - "Diplômé avec les Honneurs (Mention Bien)"
+    #     - "Spécialisé en Mathématiques Avancées"
+    #     - "Top 5% en Mathématiques au niveau national"
+
+
 
 ####################### Expertise ###########################
 expertise:
   enable : true
   title : "Expérience"
   expertise_item:
-    # expertise item loop
-    - name : "Gerajeune"
-      content : "Stagiaire<br> Data science"
+    - company: "Laboratoire IETR - Équipe Vaader"
+      position: "Stagiaire Recherche en IA"
+      duration: "Fév 2025 — Sep 2025"
+      location: "Rennes, France"
+      logo: "IETR"
+      description: "Développement d'un système innovant basé sur l'IA pour créer une base de données carbone ouverte pour les équipements électroniques, utilisant des techniques d'IA multimodale avancées pour extraire des données environnementales à partir de documentation hétérogène de fabricants."
+      achievements:
+        - "Conception d'un système d'IA multimodale pour le traitement automatisé de documents"
+        - "Implémentation d'extraction de données basée sur les LLM à partir de spécifications techniques"
+        - "Création de mécanismes de validation pour la précision des données environnementales"
+        # - "Soumission d'un résumé de recherche à la conférence IEEE EUROCON 2025"
+        - "Contribution à une initiative open-source d'informatique durable"
+      # impact_metrics:
+      #   - "Traitement de documents de fabricants majeurs (HP, Microsoft)"
+      #   - "Visant la réduction de l'impact environnemental des équipements électroniques"
+      #   - "Construction d'une base de données standardisée pour la recherche en analyse de cycle de vie"
+      #   - "Permettant une meilleure prise de décision environnementale pour les organisations"
+      technologies:
+        - "Large Language Models (LLMs)"
+        - "IA Multimodale"
+        - "Traitement du Langage Naturel"
+        - "Vision par Ordinateur"
+        - "OCR"
+        - "Python"
+        - "Extraction et Validation de Données"
+        - "Analyse de Données Environnementales"
+        
+    - company: "IAJT"
+      position: "Stagiaire Ingénierie Logicielle"
+      duration: "Juin 2024 — Août 2024"
+      location: "Tunisie"
+      logo: "IAJT"
+      description: "Développement d'un système complet de gestion de fichiers basé sur le cloud intégré avec Microsoft Azure, avec des fonctionnalités de partage de fichiers sécurisé et de collaboration."
+      achievements:
+        - "Amélioration des performances du système de 40%"
+        - "Implémentation d'une authentification sécurisée pour tous types d'utilisateurs"
+        - "Construction de fonctionnalités de synchronisation de fichiers en temps réel"
+        - "Conception d'un tableau de bord administrateur responsive"
+      # impact_metrics:
+      #   - "Réduction du temps de téléchargement de fichiers de 60%"
+      #   - "Atteinte de 99,9% de temps de disponibilité du système"
+      #   - "Traitement de plus de 10K opérations de fichiers quotidiennes"
+      #   - "Zéro incident de sécurité critique"
+      technologies:
+        - "Microsoft Azure"
+        - "Node.js"
+        - "Angular"
+        - "PostgreSQL"
+        - "Docker"
+        - "APIs REST"
 
-    # expertise item loop
-    - name : "XLAiner"
-      content : "Stagiaire<br> AI & ML"
+    - company: "XLAiner"
+      position: "Stagiaire Ingénierie IA/ML"
+      duration: "Jan 2024 — Avr 2024"
+      location: "À distance"
+      logo: "XLA"
+      description: "Implémentation de modèles d'apprentissage profond avancés pour la classification d'images médicales, en se concentrant sur l'amélioration de la précision diagnostique et les solutions de santé automatisées."
+      achievements:
+        - "Atteinte de 91% de précision de classification"
+        - "Traitement de plus de 15K images médicales"
+        - "Réduction du temps de diagnostic de moitié pour le patient et le médecin"
+        - "Construction de pipelines d'entraînement automatisés"
+      # impact_metrics:
+      #   - "Support de 3 hôpitaux majeurs"
+      #   - "Amélioration de la précision diagnostique de 25%"
+      #   - "Réduction des faux positifs de 30%"
+      #   - "Création d'une documentation de modèle complète"
+      technologies:
+        - "Python"
+        - "TensorFlow"
+        - "PyTorch"    
+        - "OpenCV"
+        - "Docker"
+        - "Vision par Ordinateur"
+        - "CNN"
 
 ####################### Publication ###########################
 publication:
