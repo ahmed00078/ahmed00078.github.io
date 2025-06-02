@@ -45,8 +45,8 @@
     </div>
     <!-- NOUVEAU: Bouton de téléchargement CV -->
     <div class="cv-download-section mb-5">
-      <a href="{{ " files/Ahmed_Sidi_Mohamed_CV.pdf" | absURL }}" class="btn-cv-download"
-        download="Ahmed_Sidi_Mohamed_CV.pdf" target="_blank">
+      <a href="{{ .cv_link | absURL }}" class="btn-cv-download"
+        download="CV.pdf" target="_blank">
         <i class="fas fa-download"></i>
         <span>{{ .download_cv }}</span>
         <div class="btn-shine"></div>
