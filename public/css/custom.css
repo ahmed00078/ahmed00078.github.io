@@ -584,6 +584,118 @@
     }
 }
 
+/* ===============================
+     PROJECT CARDS EQUAL HEIGHT FIX
+     =============================== */
+
+/* Fix for project section (homepage) and projects page to ensure equal height cards */
+#project .row,
+.projects-page .row,
+.projects section .row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+#project .col-lg-4,
+.projects-page .col-lg-4,
+.projects section .col-lg-4 {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* Make project cards equal height - applies to both homepage and projects page */
+#project .card,
+.projects-page .card,
+.projects section .card,
+body[class*="projects"] .card {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    min-height: 350px !important;
+}
+
+#project .card-body,
+.projects-page .card-body,
+.projects section .card-body,
+body[class*="projects"] .card-body {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+/* Ensure consistent image heights */
+#project .card-img-top,
+.projects-page .card-img-top,
+.projects section .card-img-top,
+body[class*="projects"] .card-img-top {
+    height: 200px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+/* Limit title to 2 lines max and add ellipsis if needed */
+#project .card-body h4,
+.projects-page .card-body h4,
+.projects section .card-body h4,
+body[class*="projects"] .card-body h4 {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    min-height: 3.2em !important;
+    line-height: 1.6 !important;
+}
+
+/* Limit summary to 3 lines max and add ellipsis if needed */
+#project .card-body p,
+.projects-page .card-body p,
+.projects section .card-body p,
+body[class*="projects"] .card-body p {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    flex: 1 !important;
+    margin-bottom: 0 !important;
+    line-height: 1.5 !important;
+}
+
+/* Enhance project card hover effects */
+#project .card,
+.projects-page .card,
+.projects section .card,
+body[class*="projects"] .card {
+    transition: all 0.3s ease !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+#project .card:hover,
+.projects-page .card:hover,
+.projects section .card:hover,
+body[class*="projects"] .card:hover {
+    transform: translateY(-10px) !important;
+    border-color: rgba(20, 175, 74, 0.5) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Style the project titles */
+#project .card-body h4 a,
+.projects-page .card-body h4 a,
+.projects section .card-body h4 a,
+body[class*="projects"] .card-body h4 a {
+    color: #14af4a !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+#project .card-body h4 a:hover,
+.projects-page .card-body h4 a:hover,
+.projects section .card-body h4 a:hover,
+body[class*="projects"] .card-body h4 a:hover {
+    color: #00d4ff !important;
+}
+
 /* Additional animations */
 .education-card,
 .experience-card {
