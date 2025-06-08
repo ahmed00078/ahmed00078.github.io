@@ -591,14 +591,18 @@
 /* Fix for project section (homepage) and projects page to ensure equal height cards */
 #project .row,
 .projects-page .row,
-.projects section .row {
+.projects section .row,
+body[title*="Projects"] section .row,
+body[title*="Projets"] section .row {
     display: flex !important;
     flex-wrap: wrap !important;
 }
 
 #project .col-lg-4,
 .projects-page .col-lg-4,
-.projects section .col-lg-4 {
+.projects section .col-lg-4,
+body[title*="Projects"] section .col-lg-4,
+body[title*="Projets"] section .col-lg-4 {
     display: flex !important;
     flex-direction: column !important;
 }
@@ -607,7 +611,10 @@
 #project .card,
 .projects-page .card,
 .projects section .card,
-body[class*="projects"] .card {
+body[class*="projects"] .card,
+body[title*="Projects"] .card,
+body[title*="Projets"] .card,
+section:not(#project):not(#blog):not(#about):not(#contact):not(#education):not(#expertise) .card {
     display: flex !important;
     flex-direction: column !important;
     height: 100% !important;
@@ -617,7 +624,10 @@ body[class*="projects"] .card {
 #project .card-body,
 .projects-page .card-body,
 .projects section .card-body,
-body[class*="projects"] .card-body {
+body[class*="projects"] .card-body,
+body[title*="Projects"] .card-body,
+body[title*="Projets"] .card-body,
+section:not(#project):not(#blog):not(#about):not(#contact):not(#education):not(#expertise) .card-body {
     flex: 1 !important;
     display: flex !important;
     flex-direction: column !important;

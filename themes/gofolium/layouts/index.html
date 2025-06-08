@@ -245,7 +245,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mb-5">
-        <h2>{{ $data.homepage.project.title | markdownify }}</h2>
+        <h2 class="section-title">
+          <i class="fas fa-code"></i> {{ $data.homepage.project.title | markdownify }}
+        </h2>
       </div>
       {{ range first 3 (where .Site.RegularPages "Section" "==" "projects") }}
       <div class="col-lg-4 col-sm-6 mb-4">
@@ -267,7 +269,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12 mb-5">
-        <h2>{{ $data.homepage.blog.title | markdownify }}</h2>
+        <h2 class="section-title">
+          <i class="fas fa-blog"></i> {{ $data.homepage.blog.title | markdownify }}
+        </h2>
       </div>
       {{ range first 4 (where .Site.RegularPages "Section" "==" "blogs") }}
       <div class="col-sm-6 mb-4">
