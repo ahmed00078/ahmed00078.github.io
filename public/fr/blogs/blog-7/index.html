@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr-fr"><head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SK6EP7F2KK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-SK6EP7F2KK');
+</script>
+
+  <meta charset="utf-8">
+  <title>Construire ShareBin : Comment j&#39;ai créé une alternative à Pastebin pour le Hackathon de Railway</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="ahrefs-site-verification" content="6e9d39c5b25f3f8584f177ec1c7d8a4e5f49cef043e0b64aa85864fdd81acc9a">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="L&#39;histoire de la création de ShareBin - une plateforme moderne de partage de fichiers et de texte - pour le Hackathon 2025 de Railway. Apprenez comment j&#39;ai construit et déployé un SaaS complet en un weekend.">
+  <meta name="author" content="Ahmed Sidi Mohamed">
+  <meta name="generator" content="Hugo 0.120.4">
+
+  <!-- theme meta -->
+  <meta name="theme-name" content="gofolium-hugo" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://ahmed78.me/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://ahmed78.me/plugins/themify-icons/themify-icons.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="https://ahmed78.me/css/custom.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://ahmed78.me/scss/style.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://ahmed78.me/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://ahmed78.me/images/favicon.png" type="image/x-icon">
+
+  
+  <script async src="https://rum.cronitor.io/script.js"></script>
+  <script>
+      window.cronitor = window.cronitor || function() { (window.cronitor.q = window.cronitor.q || []).push(arguments); };
+      cronitor('config', { clientKey: 'b8b0ec6fcfcb76528efd0b721332d5d9' });
+  </script>
+
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+	<div id="particles-js"></div>
+	<!-- navigation -->
+<header class="sticky-top bg-black">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <a class="navbar-brand" href="/fr"><img style="height: 50px;" class="img-fluid" src="https://ahmed78.me/images/logo/logo.png" alt="Ahmed Sidi Mohamed | portfolio"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu text-white"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav mx-auto">
+          
+          
+          <li class="nav-item"><a class="nav-link" href="/fr#home">Accueil</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/fr#about">À propos</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/fr#project">Projet</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/fr#blog">Blog</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="/fr#contact">Contact</a></li>
+          
+          
+          <li class="nav-item">
+            
+            
+            <select class="bg-transparent nav-link nav-lang" id="select-language" onchange="location = this.value;">
+              
+              
+              
+              
+              
+              
+              
+              
+              <option id="en" value="https://ahmed78.me/blogs/blog-7/">En</option>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <option id="fr" value="https://ahmed78.me/fr/blogs/blog-7/" selected>Fr</option>
+              
+              
+              
+              
+            </select>
+            
+          </li>
+        </ul>
+
+        
+        <!-- navigation button -->
+        <a href="https://ahmed78.me/contact" class="btn btn-primary ml-lg-4">contact</a>
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+	<section class="section">
+  <div class="container text-left text-sm-center">
+    <h2>Construire ShareBin : Comment j&#39;ai créé une alternative à Pastebin pour le Hackathon de Railway</h2>
+  </div>
+</section>
+	
+
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <article class="col-lg-8 col-md-10 mx-auto" data-file="https://ahmed78.me/fr/blogs/blog-7/" data-target="article">
+        <div class="text-center">
+          <img src="https://ahmed78.me/images/blogs/sharebin.png" alt="" class="img-fluid mb-4"> 
+          <ul class="list-inline mb-3">
+            <li class="list-inline-item"><i class="text-primary ti-calendar mr-2"></i>25 Jan, 2025</li>
+            <li class="list-inline-item"><i class="text-primary ti-time mr-2"></i><span class="eta"></span> read</li>
+            
+          </ul>
+          
+        </div>
+        <div class="content mt-5">
+          <h1 id="construire-sharebin--mon-aventure-au-hackathon-railway-">Construire ShareBin : Mon aventure au Hackathon Railway 🚀</h1>
+<p>La semaine dernière, je suis tombé sur l&rsquo;annonce du Hackathon Utilisateur de Railway. 1000$ de prix pour construire quelque chose de cool ? Défi accepté ! Avec seulement un weekend pour construire quelque chose de significatif, j&rsquo;ai décidé de créer <strong>ShareBin</strong> - une alternative à pastebin axée sur la confidentialité que tout le monde peut auto-héberger. Voici l&rsquo;histoire de comment tout s&rsquo;est assemblé.</p>
+<h2 id="lidée-">L&rsquo;Idée 💡</h2>
+<p>Nous sommes tous passés par là - vous devez rapidement partager un extrait de code avec un collègue, envoyer un fichier de configuration à un ami, ou coller quelques logs pour le débogage. Bien sûr, il existe de nombreux pastebins, mais la plupart d&rsquo;entre eux sont :</p>
+<ul>
+<li>Encombrés de publicités</li>
+<li>Suivent tous vos mouvements</li>
+<li>Nécessitent des inscriptions pour les fonctionnalités de base</li>
+<li>Ne vous donnent pas le contrôle sur vos données</li>
+</ul>
+<p>Je voulais quelque chose de différent. Quelque chose de propre, rapide et auto-hébergé. Quelque chose qui respecte la vie privée et qui fonctionne tout simplement. C&rsquo;est ainsi que ShareBin est né.</p>
+<h2 id="le-défi-">Le Défi ⏰</h2>
+<p>Le hackathon de Railway avait des exigences spécifiques :</p>
+<ul>
+<li>Construire quelque chose entre le 6 et le 11 août</li>
+<li>Créer un modèle déployable</li>
+<li>Écrire du contenu détaillé à ce sujet</li>
+<li>Le rendre suffisamment sophistiqué pour impressionner</li>
+</ul>
+<p>Avec un temps limité et de grandes ambitions, je devais être stratégique. Pas de sur-ingénierie, pas de dérive fonctionnelle - juste un MVP solide qui résout un vrai problème.</p>
+<h2 id="construire-sharebin-">Construire ShareBin 🛠️</h2>
+<h3 id="jour-1--architecture-et-configuration">Jour 1 : Architecture et Configuration</h3>
+<p>J&rsquo;ai commencé avec une architecture simple mais robuste :</p>
+<ul>
+<li><strong>Frontend</strong> : Next.js 14 (parce que qui n&rsquo;aime pas React avec des super pouvoirs ?)</li>
+<li><strong>Backend</strong> : Express.js (simple, rapide, éprouvé)</li>
+<li><strong>Base de données</strong> : PostgreSQL (base de données native de Railway)</li>
+</ul>
+<p>La beauté de cette pile ? C&rsquo;est une technologie ennuyeuse qui fonctionne tout simplement. Pas de nouveaux frameworks fantaisistes à apprendre, pas de configurations complexes - juste des outils solides qui font le travail.</p>
+<h3 id="jour-2--fonctionnalités-principales">Jour 2 : Fonctionnalités Principales</h3>
+<p>Le MVP devait maîtriser les bases :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Le cœur de ShareBin - générer des IDs uniques
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">generateId</span>() {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">crypto</span>.<span style="color:#a6e22e">randomBytes</span>(<span style="color:#ae81ff">4</span>).<span style="color:#a6e22e">toString</span>(<span style="color:#e6db74">&#39;hex&#39;</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Simple, non ? Mais cette petite fonction alimente tout le mécanisme de partage. Chaque partage obtient un ID unique de 8 caractères qui est pratiquement impossible à deviner.</p>
+<p>J&rsquo;ai implémenté :</p>
+<ul>
+<li><strong>Partage de texte</strong> : Collez n&rsquo;importe quoi, obtenez un lien</li>
+<li><strong>Téléchargements de fichiers</strong> : Jusqu&rsquo;à 10MB, stockés directement dans PostgreSQL</li>
+<li><strong>Expiration automatique</strong> : 1 heure à jamais - votre choix</li>
+<li><strong>Comptage de vues</strong> : Sachez combien de fois votre partage a été consulté</li>
+</ul>
+<h3 id="jour-3--le-rendre-beau">Jour 3 : Le Rendre Beau</h3>
+<p>Un outil n&rsquo;est aussi bon que son interface. J&rsquo;ai opté pour un design glassmorphisme moderne - ces beaux effets de verre dépoli qui donnent un aspect premium à tout. Thème sombre par défaut parce que, soyons honnêtes, nous sommes tous des développeurs ici.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#75715e">/* La magie du glassmorphisme */</span>
+</span></span><span style="display:flex;"><span>.<span style="color:#a6e22e">card</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">background</span>: rgba(<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0.1</span>);
+</span></span><span style="display:flex;"><span>  backdrop-filter: blur(<span style="color:#ae81ff">10</span><span style="color:#66d9ef">px</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">border</span>: <span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> rgba(<span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">0.2</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Le résultat ? Une interface qui semble appartenir à 2025, pas 2005.</p>
+<h3 id="jour-4--déploiement-railway">Jour 4 : Déploiement Railway</h3>
+<p>C&rsquo;est là que Railway brille vraiment. Le déploiement était littéralement :</p>
+<ol>
+<li>Pousser vers GitHub</li>
+<li>Se connecter à Railway</li>
+<li>Ajouter des variables d&rsquo;environnement</li>
+<li>Terminé</li>
+</ol>
+<p>Pas de configs Docker, pas de yamls Kubernetes, pas de gestion de serveur. Juste du pur bonheur de développeur.</p>
+<h2 id="la-plongée-technique-approfondie-">La Plongée Technique Approfondie 🔧</h2>
+<h3 id="conception-de-base-de-données">Conception de Base de Données</h3>
+<p>J&rsquo;ai gardé les choses simples avec une seule table :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#66d9ef">CREATE</span> <span style="color:#66d9ef">TABLE</span> shares (
+</span></span><span style="display:flex;"><span>  id VARCHAR(<span style="color:#ae81ff">8</span>) <span style="color:#66d9ef">PRIMARY</span> <span style="color:#66d9ef">KEY</span>,
+</span></span><span style="display:flex;"><span>  content TEXT,
+</span></span><span style="display:flex;"><span>  filename VARCHAR(<span style="color:#ae81ff">255</span>),
+</span></span><span style="display:flex;"><span>  mimetype VARCHAR(<span style="color:#ae81ff">100</span>),
+</span></span><span style="display:flex;"><span>  file_data BYTEA,
+</span></span><span style="display:flex;"><span>  is_file BOOLEAN <span style="color:#66d9ef">DEFAULT</span> <span style="color:#66d9ef">false</span>,
+</span></span><span style="display:flex;"><span>  created_at <span style="color:#66d9ef">TIMESTAMP</span> <span style="color:#66d9ef">DEFAULT</span> <span style="color:#66d9ef">CURRENT_TIMESTAMP</span>,
+</span></span><span style="display:flex;"><span>  expires_at <span style="color:#66d9ef">TIMESTAMP</span>,
+</span></span><span style="display:flex;"><span>  views INTEGER <span style="color:#66d9ef">DEFAULT</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div><p>Les fichiers sont stockés en tant que BYTEA directement dans PostgreSQL. Est-ce la solution la plus évolutive ? Non. Est-ce que ça fonctionne parfaitement pour un pastebin auto-hébergé ? Absolument.</p>
+<h3 id="considérations-de-sécurité">Considérations de Sécurité</h3>
+<p>La sécurité n&rsquo;était pas une réflexion après coup :</p>
+<ul>
+<li><strong>Prévention de l&rsquo;injection SQL</strong> : Requêtes paramétrées partout</li>
+<li><strong>Validation des fichiers</strong> : Vérification stricte du type et de la taille</li>
+<li><strong>Configuration CORS</strong> : Correctement configurée pour le frontend</li>
+<li><strong>Assainissement des entrées</strong> : Ne jamais faire confiance aux entrées utilisateur</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#75715e">// Exemple de requête paramétrée
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">await</span> <span style="color:#a6e22e">pool</span>.<span style="color:#a6e22e">query</span>(
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#39;INSERT INTO shares (id, content, expires_at) VALUES ($1, $2, $3)&#39;</span>,
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">id</span>, <span style="color:#a6e22e">text</span>, <span style="color:#a6e22e">expiresAt</span>]
+</span></span><span style="display:flex;"><span>);
+</span></span></code></pre></div><h3 id="optimisations-de-performance">Optimisations de Performance</h3>
+<p>Même si c&rsquo;est un projet de hackathon, je n&rsquo;ai pas pu m&rsquo;empêcher d&rsquo;optimiser :</p>
+<ul>
+<li><strong>Nettoyage automatique</strong> : Tâche de fond qui supprime les partages expirés</li>
+<li><strong>Requêtes indexées</strong> : Index de base de données sur les champs fréquemment interrogés</li>
+<li><strong>Gestion efficace des fichiers</strong> : Streaming pour les gros fichiers</li>
+<li><strong>Optimisation Next.js</strong> : Génération statique où possible</li>
+</ul>
+<h2 id="le-résultat-">Le Résultat 🎉</h2>
+<p>ShareBin est maintenant en ligne et prêt pour que quiconque puisse le déployer. Avec le système de templates de Railway, vous pouvez avoir votre propre instance en marche en littéralement 5 minutes :</p>
+<p><a href="https://railway.com/deploy/Qq-IIH?referralCode=_QheAl"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a></p>
+<h3 id="quest-ce-qui-le-rend-spécial-">Qu&rsquo;est-ce qui le Rend Spécial ?</h3>
+<ol>
+<li><strong>Confidentialité d&rsquo;abord</strong> : Vos données, votre serveur, vos règles</li>
+<li><strong>Pas de superflu</strong> : Juste les fonctionnalités dont vous avez besoin, rien de plus</li>
+<li><strong>Design magnifique</strong> : Une interface qui suscite la joie</li>
+<li><strong>Déploiement en un clic</strong> : Railway rend cela ridiculement facile</li>
+<li><strong>Open Source</strong> : Forkez-le, modifiez-le, faites-en le vôtre</li>
+</ol>
+<h2 id="leçons-apprises-">Leçons Apprises 📚</h2>
+<h3 id="ce-qui-a-bien-marché">Ce qui a Bien Marché</h3>
+<ul>
+<li><strong>Choisir une technologie ennuyeuse</strong> : Next.js + Express + PostgreSQL = pas de surprises</li>
+<li><strong>Commencer simple</strong> : MVP d&rsquo;abord, fonctionnalités après</li>
+<li><strong>Plateforme de Railway</strong> : Le déploiement n&rsquo;a jamais été un goulot d&rsquo;étranglement</li>
+<li><strong>Gestion du temps</strong> : Fixer des objectifs quotidiens m&rsquo;a gardé sur la bonne voie</li>
+</ul>
+<h3 id="ce-que-je-ferais-différemment">Ce que je Ferais Différemment</h3>
+<ul>
+<li><strong>Commencer avec TypeScript</strong> : La sécurité des types aurait économisé du temps de débogage</li>
+<li><strong>Ajouter des tests plus tôt</strong> : Même des tests basiques auraient aidé avec la confiance</li>
+<li><strong>Meilleure gestion des erreurs</strong> : Certains cas limites nécessitent plus d&rsquo;attention</li>
+<li><strong>Mise en cache Redis</strong> : Améliorerait les performances pour les partages populaires</li>
+</ul>
+<h2 id="et-maintenant--">Et Maintenant ? 🚀</h2>
+<p>ShareBin ne fait que commencer. Voici ce qui est sur la feuille de route :</p>
+<ul>
+<li><strong>Coloration syntaxique</strong> : Détection automatique de langage pour le code</li>
+<li><strong>Protection par mot de passe</strong> : Chiffrement optionnel pour les partages sensibles</li>
+<li><strong>Intégration S3</strong> : Pour le support de fichiers plus volumineux</li>
+<li><strong>Accès API</strong> : Laisser les développeurs intégrer ShareBin</li>
+<li><strong>Thèmes personnalisés</strong> : Parce que tout le monde aime la personnalisation</li>
+</ul>
+<h2 id="le-parcours-open-source">Le Parcours Open Source</h2>
+<p>Le code est open source et disponible sur GitHub :</p>
+<ul>
+<li><a href="https://github.com/ahmed00078/sharebin-frontend">Dépôt Frontend</a></li>
+<li><a href="https://github.com/ahmed00078/sharebin-backend">Dépôt Backend</a></li>
+</ul>
+<p>Les contributions sont les bienvenues ! Que ce soit pour corriger des bugs, ajouter des fonctionnalités, ou améliorer la documentation - chaque PR aide.</p>
+<h2 id="essayez-le-vous-même-">Essayez-le Vous-même !</h2>
+<p>Vous voulez voir ShareBin en action ? Vous pouvez :</p>
+<ol>
+<li><strong>Déployer votre propre instance</strong> : <a href="https://railway.com/deploy/Qq-IIH?referralCode=_QheAl">Déploiement en un clic sur Railway</a></li>
+<li><strong>Vérifier le code source</strong> : Dépôts liés ci-dessus</li>
+<li><strong>Contribuer</strong> : Ouvrir des issues, soumettre des PRs, partager des idées</li>
+</ol>
+<h2 id="réflexions-finales-">Réflexions Finales 💭</h2>
+<p>Construire ShareBin pour le hackathon de Railway a été une expérience incroyable. En seulement 4 jours, je suis passé d&rsquo;une idée à un produit déployé avec de vrais utilisateurs. Cela m&rsquo;a rappelé pourquoi j&rsquo;aime construire des choses - le frisson de créer quelque chose d&rsquo;utile à partir de rien d&rsquo;autre que du code et de la créativité.</p>
+<p>La plateforme de Railway a rendu l&rsquo;impossible possible. Pas de lutte avec les déploiements, pas de cauchemars de configuration de serveur - juste une concentration pure sur la construction. Si vous êtes un développeur qui n&rsquo;a pas encore essayé Railway, vous passez à côté de quelque chose.</p>
+<p>ShareBin ne gagnera peut-être pas le hackathon, mais c&rsquo;est déjà un gagnant dans mon livre. Il résout un vrai problème, il est beau, et surtout - c&rsquo;est quelque chose dont je suis fier d&rsquo;avoir construit.</p>
+<h2 id="merci-">Merci 🙏</h2>
+<p>Un grand merci à :</p>
+<ul>
+<li><strong>Railway</strong> pour avoir organisé ce hackathon génial</li>
+<li><strong>La communauté open source</strong> pour les outils incroyables</li>
+<li><strong>Tous ceux qui essaient ShareBin</strong> - vous en valez la peine</li>
+</ul>
+<hr>
+<p><em>Vous avez des questions ou des commentaires ? Contactez-moi sur <a href="ahmedsidimohammed78@gmail.com">ahmedsidimohammed78@gmail.com</a> ou ouvrez une issue sur GitHub. Bon partage !</em></p>
+<p><strong>#Railway #Hackathon #NextJS #NodeJS #PostgreSQL #OpenSource #WebDev #SaaS</strong></p>
+
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <ul class="list-inline social-icons mb-5">
+          
+          <li class="list-inline-item"><a href="https://github.com/ahmed00078/"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/ahmed-sidi-mohamed/"><i class="ti-linkedin"></i></a></li>
+          
+        </ul>
+        <hr class="mx-auto border-default" style="width: 90px;">
+        <p class="mt-5"></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://ahmed78.me/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://ahmed78.me/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://ahmed78.me/plugins/particles/particles.min.js"></script>
+
+<script src="https://ahmed78.me/plugins/particles/stats.min.js"></script>
+
+<script src="https://ahmed78.me/plugins/reading-time/readingTime.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://ahmed78.me/js/script.min.js"></script>
+
+<!-- google analitycs -->
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  ga('create', 'G-SK6EP7F2KK', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+
+</html>

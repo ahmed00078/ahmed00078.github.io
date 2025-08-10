@@ -706,6 +706,126 @@ body[class*="projects"] .card-body h4 a:hover {
     color: #00d4ff !important;
 }
 
+/* ===============================
+     BLOG CARDS EQUAL HEIGHT FIX
+     =============================== */
+
+/* Fix for blog section (homepage) and blogs page to ensure equal height cards */
+#blog .row,
+.blogs-page .row,
+.blogs section .row,
+body[title*="Blog"] section .row,
+body[title*="Blogs"] section .row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+#blog .col-lg-4,
+.blogs-page .col-lg-4,
+.blogs section .col-lg-4,
+body[title*="Blog"] section .col-lg-4,
+body[title*="Blogs"] section .col-lg-4 {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* Make blog cards equal height - applies to both homepage and blogs page */
+#blog .card,
+.blogs-page .card,
+.blogs section .card,
+body[class*="blogs"] .card,
+body[title*="Blog"] .card,
+body[title*="Blogs"] .card {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    min-height: 420px !important;
+}
+
+#blog .card-body,
+.blogs-page .card-body,
+.blogs section .card-body,
+body[class*="blogs"] .card-body,
+body[title*="Blog"] .card-body,
+body[title*="Blogs"] .card-body {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+/* Ensure consistent image heights for blog cards */
+#blog .card-img-top,
+.blogs-page .card-img-top,
+.blogs section .card-img-top,
+body[class*="blogs"] .card-img-top {
+    height: 200px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+/* Limit blog title to 2 lines max and add ellipsis if needed */
+#blog .card-body h4,
+.blogs-page .card-body h4,
+.blogs section .card-body h4,
+body[class*="blogs"] .card-body h4 {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    min-height: 3.2em !important;
+    line-height: 1.6 !important;
+}
+
+/* Limit blog description to 3 lines max and add ellipsis if needed */
+#blog .card-body p,
+.blogs-page .card-body p,
+.blogs section .card-body p,
+body[class*="blogs"] .card-body p {
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    flex: 1 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.5 !important;
+}
+
+/* Enhance blog card hover effects */
+#blog .card,
+.blogs-page .card,
+.blogs section .card,
+body[class*="blogs"] .card {
+    transition: all 0.3s ease !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+#blog .card:hover,
+.blogs-page .card:hover,
+.blogs section .card:hover,
+body[class*="blogs"] .card:hover {
+    transform: translateY(-10px) !important;
+    border-color: rgba(20, 175, 74, 0.5) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Style the blog titles */
+#blog .card-body h4 a,
+.blogs-page .card-body h4 a,
+.blogs section .card-body h4 a,
+body[class*="blogs"] .card-body h4 a {
+    color: #14af4a !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+#blog .card-body h4 a:hover,
+.blogs-page .card-body h4 a:hover,
+.blogs section .card-body h4 a:hover,
+body[class*="blogs"] .card-body h4 a:hover {
+    color: #00d4ff !important;
+}
+
 /* Additional animations */
 .education-card,
 .experience-card {

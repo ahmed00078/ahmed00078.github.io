@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ahmed78.me/</loc>
-    <lastmod>2024-05-18T15:40:24+06:00</lastmod>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-fr"
@@ -13,6 +13,19 @@
                 rel="alternate"
                 hreflang="en-us"
                 href="https://ahmed78.me/"
+                />
+  </url><url>
+    <loc>https://ahmed78.me/blogs/blog-7/</loc>
+    <lastmod>2025-01-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-fr"
+                href="https://ahmed78.me/fr/blogs/blog-7/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://ahmed78.me/blogs/blog-7/"
                 />
   </url><url>
     <loc>https://ahmed78.me/contact/</loc>
