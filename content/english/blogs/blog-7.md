@@ -1,6 +1,6 @@
 ---
 title: "Building ShareBin: How I Created a Pastebin Alternative for Railway's Hackathon"
-date: 2025-01-10T00:00:00+00:00
+date: 2025-08-10T00:00:00+00:00
 image: "images/blogs/sharebin.png"
 draft: false
 description: "The story of building ShareBin - a modern file and text sharing platform - for Railway's 2025 Hackathon. Learn how I built and deployed a complete SaaS in one weekend."

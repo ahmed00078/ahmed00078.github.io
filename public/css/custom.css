@@ -715,7 +715,8 @@ body[class*="projects"] .card-body h4 a:hover {
 .blogs-page .row,
 .blogs section .row,
 body[title*="Blog"] section .row,
-body[title*="Blogs"] section .row {
+body[title*="Blogs"] section .row,
+section.section.pt-0 .row {
     display: flex !important;
     flex-wrap: wrap !important;
 }
@@ -724,7 +725,8 @@ body[title*="Blogs"] section .row {
 .blogs-page .col-lg-4,
 .blogs section .col-lg-4,
 body[title*="Blog"] section .col-lg-4,
-body[title*="Blogs"] section .col-lg-4 {
+body[title*="Blogs"] section .col-lg-4,
+section.section.pt-0 .col-sm-6 {
     display: flex !important;
     flex-direction: column !important;
 }
@@ -735,7 +737,8 @@ body[title*="Blogs"] section .col-lg-4 {
 .blogs section .card,
 body[class*="blogs"] .card,
 body[title*="Blog"] .card,
-body[title*="Blogs"] .card {
+body[title*="Blogs"] .card,
+section.section.pt-0 .card {
     display: flex !important;
     flex-direction: column !important;
     height: 100% !important;
@@ -747,7 +750,8 @@ body[title*="Blogs"] .card {
 .blogs section .card-body,
 body[class*="blogs"] .card-body,
 body[title*="Blog"] .card-body,
-body[title*="Blogs"] .card-body {
+body[title*="Blogs"] .card-body,
+section.section.pt-0 .card-body {
     flex: 1 !important;
     display: flex !important;
     flex-direction: column !important;
@@ -758,7 +762,8 @@ body[title*="Blogs"] .card-body {
 #blog .card-img-top,
 .blogs-page .card-img-top,
 .blogs section .card-img-top,
-body[class*="blogs"] .card-img-top {
+body[class*="blogs"] .card-img-top,
+section.section.pt-0 .card-img-top {
     height: 200px !important;
     object-fit: cover !important;
     object-position: center !important;
@@ -768,7 +773,8 @@ body[class*="blogs"] .card-img-top {
 #blog .card-body h4,
 .blogs-page .card-body h4,
 .blogs section .card-body h4,
-body[class*="blogs"] .card-body h4 {
+body[class*="blogs"] .card-body h4,
+section.section.pt-0 .card-body h4 {
     display: -webkit-box !important;
     -webkit-line-clamp: 2 !important;
     -webkit-box-orient: vertical !important;
@@ -781,7 +787,8 @@ body[class*="blogs"] .card-body h4 {
 #blog .card-body p,
 .blogs-page .card-body p,
 .blogs section .card-body p,
-body[class*="blogs"] .card-body p {
+body[class*="blogs"] .card-body p,
+section.section.pt-0 .card-body p {
     display: -webkit-box !important;
     -webkit-line-clamp: 3 !important;
     -webkit-box-orient: vertical !important;
@@ -795,7 +802,8 @@ body[class*="blogs"] .card-body p {
 #blog .card,
 .blogs-page .card,
 .blogs section .card,
-body[class*="blogs"] .card {
+body[class*="blogs"] .card,
+section.section.pt-0 .card {
     transition: all 0.3s ease !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
@@ -803,7 +811,8 @@ body[class*="blogs"] .card {
 #blog .card:hover,
 .blogs-page .card:hover,
 .blogs section .card:hover,
-body[class*="blogs"] .card:hover {
+body[class*="blogs"] .card:hover,
+section.section.pt-0 .card:hover {
     transform: translateY(-10px) !important;
     border-color: rgba(20, 175, 74, 0.5) !important;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3) !important;
@@ -813,7 +822,8 @@ body[class*="blogs"] .card:hover {
 #blog .card-body h4 a,
 .blogs-page .card-body h4 a,
 .blogs section .card-body h4 a,
-body[class*="blogs"] .card-body h4 a {
+body[class*="blogs"] .card-body h4 a,
+section.section.pt-0 .card-body h4 a {
     color: #14af4a !important;
     text-decoration: none !important;
     transition: color 0.3s ease !important;
@@ -822,7 +832,8 @@ body[class*="blogs"] .card-body h4 a {
 #blog .card-body h4 a:hover,
 .blogs-page .card-body h4 a:hover,
 .blogs section .card-body h4 a:hover,
-body[class*="blogs"] .card-body h4 a:hover {
+body[class*="blogs"] .card-body h4 a:hover,
+section.section.pt-0 .card-body h4 a:hover {
     color: #00d4ff !important;
 }
 
