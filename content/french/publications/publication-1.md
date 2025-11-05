@@ -1,5 +1,5 @@
 ---
-title: "“The biggest change to News Feed since 2013”: Facebook is making it easy to bypass its algorithm Feed since biggest"
+title: ""Le plus grand changement du fil d'actualité depuis 2013" : Facebook facilite le contournement de son algorithme"
 date: 2020-03-14T15:40:24+06:00
 # publication thumb
 image : "images/publications/pub1.jpg"
@@ -7,14 +7,14 @@ image : "images/publications/pub1.jpg"
 author : "George Cushen"
 draft: false
 # description
-description: "This is meta description"
+description: "Publication académique sur les algorithmes de réseaux sociaux"
 # links
 links:
   - label : "PDF"
     link : "#"
   - label : "Code"
     link : "#"
-  - label : "Source File"
+  - label : "Fichier Source"
     link : "#"
 ---
 

@@ -1,65 +1,65 @@
 ---
-title: "Hack the Box — Starting Point — Meow Machine write up"
+title: "Hack the Box — Point de Départ — Solution de la Machine Meow"
 date: 2024-04-17T15:40:24+06:00
 # talks thumb
 image : "images/blogs/meowpwnd.png"
 draft: false
 # description
-description: "This is meta description"
+description: "Guide complet pour résoudre la machine Meow sur Hack the Box"
 ---
 
-Welcome to my first write-up on Hack the Box! In this article, I'll guide you through the steps to conquer the "Meow" machine, a part of the 'Starting Point' labs with a 'Very Easy' difficulty rating.
+Bienvenue dans mon premier guide sur Hack the Box ! Dans cet article, je vous guiderai à travers les étapes pour conquérir la machine "Meow", qui fait partie des laboratoires 'Point de Départ' avec une difficulté classée comme 'Très Facile'.
 
 <hr>
 
 
-To begin, log in to the Hack the Box portal and head to the Starting Point page. You'll be presented with the option to choose between a `PWNBOX` or an `OVPN` (OpenVPN) connection. I opted for the `OVPN` method, utilizing Kali Linux through VirtualBox. Simply download the VPN (.ovpn) configuration file and execute the following command in your terminal:\
+Pour commencer, connectez-vous au portail Hack the Box et dirigez-vous vers la page Point de Départ. Vous aurez le choix entre une connexion `PWNBOX` ou `OVPN` (OpenVPN). J'ai opté pour la méthode `OVPN`, en utilisant Kali Linux via VirtualBox. Il suffit de télécharger le fichier de configuration VPN (.ovpn) et d'exécuter la commande suivante dans votre terminal :\
 
 <hr>
 
 ```bash
-sudo openvpn [filename].ovpn
+sudo openvpn [nomfichier].ovpn
 ```
 <hr>
 
-Remember to replace `"[filename]"` with the actual name of your downloaded `.ovpn` file for the Starting Point lab. Look for the `"Initialization Sequence Completed"` line in the terminal, confirming your successful connection to the Meow machine.
+N'oubliez pas de remplacer `"[nomfichier]"` par le nom réel de votre fichier `.ovpn` téléchargé pour le laboratoire Point de Départ. Recherchez la ligne `"Initialization Sequence Completed"` dans le terminal, confirmant votre connexion réussie à la machine Meow.
 
 <hr>
 
-Refresh the browser page to see the new connection and activate the machine by clicking the `'Spawn Machine'` button. Once the machine is active, note the target IP address.
+Actualisez la page du navigateur pour voir la nouvelle connexion et activez la machine en cliquant sur le bouton `'Spawn Machine'`. Une fois la machine active, notez l'adresse IP cible.
 
 <hr>
 
-Now, proceed to tackle the tasks provided by the Meow machine. I've summarized the answers to each task below:
+Maintenant, procédez aux tâches fournies par la machine Meow. J'ai résumé les réponses à chaque tâche ci-dessous :
 
-> **VM Acronym:** <br>
-> Virtual Machine
+> **Acronyme de VM :** <br>
+> Machine Virtuelle
 
-> **Tool for Command Line Interaction:** <br>
+> **Outil pour l'Interaction en Ligne de Commande :** <br>
 > Terminal
 
-> **Service for VPN Connection to HTB labs:** <br>
+> **Service pour la Connexion VPN aux Labs HTB :** <br>
 > OpenVPN
 
-> **Abbreviated Name for 'Tunnel Interface':** <br>
+> **Nom Abrégé pour 'Interface Tunnel' :** <br>
 > tun
 
-> **Tool for ICMP Echo Requests:** <br>
+> **Outil pour les Requêtes d'Écho ICMP :** <br>
 > Ping
 
-> **Common Tool for Finding Open Ports:** <br>
+> **Outil Commun pour Trouver les Ports Ouverts :** <br>
 > Nmap
 
-> **Service on Port 23/tcp:** <br>
+> **Service sur le Port 23/tcp :** <br>
 > Telnet
 
-> **Username for Telnet Login (Blank Password):** <br>
-> root (Try admin or administrator if root fails)
+> **Nom d'Utilisateur pour la Connexion Telnet (Mot de Passe Vide) :** <br>
+> root (Essayez admin ou administrator si root échoue)
 
-> **Submit Root Flag:** <br>
-> Conduct an nmap scan on the target IP, identifying an open port 23/tcp with the Telnet service. Use the command `telnet [Target_IP]` in the terminal, providing "root" as the username. Execute the `ls` command to list available directories/files, locate "flag.txt," and use `cat flag.txt` to view its content. Copy the flag value and submit it in the browser.
+> **Soumettre le Flag Root :** <br>
+> Effectuez un scan nmap sur l'IP cible, identifiant un port ouvert 23/tcp avec le service Telnet. Utilisez la commande `telnet [IP_Cible]` dans le terminal, en fournissant "root" comme nom d'utilisateur. Exécutez la commande `ls` pour lister les répertoires/fichiers disponibles, localisez "flag.txt", et utilisez `cat flag.txt` pour voir son contenu. Copiez la valeur du flag et soumettez-la dans le navigateur.
 
-Upon successful completion, you'll receive a `"Meow has been Pwned"` message.
+Une fois terminé avec succès, vous recevrez un message `"Meow has been Pwned"`.
 
-In conclusion, by running an nmap scan on `[target_ip]`, we discovered an open port 23/tcp with the Telnet service. Connecting to the target server using telnet `[target_ip]` with the "root" username, we navigated through directories, found "flag.txt," and solved the challenge. Happy hacking!
+En conclusion, en exécutant un scan nmap sur `[ip_cible]`, nous avons découvert un port ouvert 23/tcp avec le service Telnet. En nous connectant au serveur cible avec telnet `[ip_cible]` en utilisant le nom d'utilisateur "root", nous avons navigué dans les répertoires, trouvé "flag.txt", et résolu le défi. Bon hacking !
 
