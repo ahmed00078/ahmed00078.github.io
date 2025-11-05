@@ -1,45 +1,45 @@
 ---
-title: "Design and development of a web platform meeting the needs of pets"
+title: "Conception et développement d'une plateforme web répondant aux besoins des animaux de compagnie"
 date: 2024-05-18T15:40:24+06:00
 # Project thumb
 image : "images/projects/anicareful-home.png"
 draft: false
 # description
-description: "This is meta description"
+description: "Plateforme web complète pour les entreprises de produits pour animaux, propriétaires et fournisseurs de services"
 ---
 
-This project aims to develop a comprehensive web platform to meet the needs of pet product companies, pet owners and pet-related service providers. The application was designed and implemented by a team of three developers working in close collaboration: [LASSOUED Mahmoud](https://www.linkedin.com/in/mahmoud-lassoued/), [GSAIER Mariem](https://www.linkedin.com/in/mariem-gsaier/) and [SIDI MOHAMED Ahmed](https://www.linkedin.com/in/ahmed-sidi-mohamed/).
+Ce projet vise à développer une plateforme web complète pour répondre aux besoins des entreprises de produits pour animaux de compagnie, des propriétaires d'animaux et des fournisseurs de services liés aux animaux. L'application a été conçue et implémentée par une équipe de trois développeurs travaillant en étroite collaboration : [LASSOUED Mahmoud](https://www.linkedin.com/in/mahmoud-lassoued/), [GSAIER Mariem](https://www.linkedin.com/in/mariem-gsaier/) et [SIDI MOHAMED Ahmed](https://www.linkedin.com/in/ahmed-sidi-mohamed/).
 
-The platform offers a wide range of features, including:
+La plateforme offre une large gamme de fonctionnalités, notamment :
 
-- Product, category and order management for businesses
-- Purchasing products, publishing content and managing pets for owners
-- The possibility of applying for childcare services for caretakers
-- Appointment making and scheduling management for veterinarians
+- Gestion des produits, catégories et commandes pour les entreprises
+- Achat de produits, publication de contenu et gestion des animaux pour les propriétaires
+- Possibilité de postuler pour des services de garde d'animaux pour les gardiens
+- Prise de rendez-vous et gestion des plannings pour les vétérinaires
 
-#### Technologies Used
+#### Technologies Utilisées
 
-The development of this platform involved the use of various technologies, both for the backend and the frontend. Here are the main technologies used:
+Le développement de cette plateforme a impliqué l'utilisation de diverses technologies, tant pour le backend que pour le frontend. Voici les principales technologies utilisées :
 
 **Backend**
 - Node.js
 - Express.js
--MySQL
+- MySQL
 
 **Frontend**
 - Angular
 - HTML/CSS
 - JavaScript
 
-**Tools**
-- Git (for version management)
-- GitHub (for hosting the source code): [Project link on GitHub](https://github.com/votrecompte/projet-gestion-animals)
-- Trello (for task management)
-- Figma (for user interface design)
-- StarUML (for UML modeling)
-- Visual Studio Code (for code editing)
-- XAMPP (for local development environment)
-- phpMyAdmin (for MySQL database management)
-- Postman (for API testing)
+**Outils**
+- Git (pour la gestion de versions)
+- GitHub (pour l'hébergement du code source) : [Lien du projet sur GitHub](https://github.com/votrecompte/projet-gestion-animals)
+- Trello (pour la gestion des tâches)
+- Figma (pour la conception de l'interface utilisateur)
+- StarUML (pour la modélisation UML)
+- Visual Studio Code (pour l'édition de code)
+- XAMPP (pour l'environnement de développement local)
+- phpMyAdmin (pour la gestion de la base de données MySQL)
+- Postman (pour les tests d'API)
 
-This project was carried out as a team effort, where each member contributed at different stages of development, from design to implementation. The technologies chosen made it possible to create a robust, scalable and user-friendly web application, meeting the requirements of the different stakeholders involved in pet management.
+Ce projet a été réalisé en équipe, où chaque membre a contribué à différentes étapes du développement, de la conception à l'implémentation. Les technologies choisies ont permis de créer une application web robuste, évolutive et conviviale, répondant aux exigences des différentes parties prenantes impliquées dans la gestion des animaux de compagnie.

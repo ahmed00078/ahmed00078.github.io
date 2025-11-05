@@ -1,30 +1,30 @@
 ---
-title: "Maze Bank - User-friendly library  management  system"
+title: "BiblioManager - Système de gestion de bibliothèque convivial"
 date: 2024-01-15T15:40:24+06:00
 # Project thumb
 image : "images/projects/mizbiblio.png"
 draft: false
 # description
-description: "This is meta description"
+description: "Application de gestion de bibliothèque avec interface intuitive développée avec JavaFX"
 ---
 
-BiblioManager is a library management application offering an intuitive user interface developed with JavaFX. It allows efficient management of book collections, borrowing and member memberships.
+BiblioManager est une application de gestion de bibliothèque offrant une interface utilisateur intuitive développée avec JavaFX. Elle permet une gestion efficace des collections de livres, des emprunts et des adhésions des membres.
 
-Key Features:
+Fonctionnalités Clés :
 
-- Complete book catalog management, with the ability to add, edit and delete books
-- Track book borrowing by members, with loan, return and renewal features
-- Management of member memberships, including registering new members and updating their information
-- Modern and friendly user interface developed with JavaFX and SceneBuilder
-- Data storage in an SQLite database for efficient and secure management
+- Gestion complète du catalogue de livres, avec la possibilité d'ajouter, modifier et supprimer des livres
+- Suivi des emprunts de livres par les membres, avec fonctionnalités de prêt, retour et renouvellement
+- Gestion des adhésions des membres, incluant l'enregistrement de nouveaux membres et la mise à jour de leurs informations
+- Interface utilisateur moderne et conviviale développée avec JavaFX et SceneBuilder
+- Stockage des données dans une base de données SQLite pour une gestion efficace et sécurisée
 
-Technologies used:
+Technologies utilisées :
 
-- JavaFX for user interface development
-- Java for business logic
-- SceneBuilder for GUI design
-- SQLite for data storage
-- Maven for dependency management
-- GitHub for version control and collaboration
+- JavaFX pour le développement de l'interface utilisateur
+- Java pour la logique métier
+- SceneBuilder pour la conception de l'interface graphique
+- SQLite pour le stockage des données
+- Maven pour la gestion des dépendances
+- GitHub pour le contrôle de version et la collaboration
 
-This project was developed following object-oriented programming best practices and with a focus on user experience. It demonstrates my skills in developing desktop applications with JavaFX, as well as my ability to design and implement effective data management systems.
+Ce projet a été développé en suivant les meilleures pratiques de programmation orientée objet et avec un accent sur l'expérience utilisateur. Il démontre mes compétences dans le développement d'applications de bureau avec JavaFX, ainsi que ma capacité à concevoir et implémenter des systèmes de gestion de données efficaces.

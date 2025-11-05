@@ -1,11 +1,11 @@
 ---
-title: "“Users who visit three times a week are 8x more likely to subscribe”: Lessons building"
+title: ""Les utilisateurs qui visitent trois fois par semaine sont 8 fois plus susceptibles de s'abonner" : Leçons de construction"
 date: 2020-03-14T15:40:24+06:00
 # talks thumb
 image : "images/talks/talk3.jpg"
 draft: false
 # description
-description: "This is meta description"
+description: "Présentation sur l'engagement utilisateur et les stratégies d'abonnement"
 # links
 links:
   - label : "PDF"

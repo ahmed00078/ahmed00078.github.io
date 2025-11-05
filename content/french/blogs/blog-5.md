@@ -1,16 +1,16 @@
 ---
-title: "Reasons Why Employees Quit | Human Resources Analytics"
+title: "Raisons Pour Lesquelles les Employés Démissionnent | Analytique des Ressources Humaines"
 date: 2020-03-14T15:40:24+06:00
 # talks thumb
 image : "images/blogs/blog2.jpg"
 draft: true
 # description
-description: "This is meta description"
+description: "Exemple de formatage Markdown pour démonstration"
 ---
 
-#### Heading example
+#### Exemple de titres
 
-Here is example of hedings. You can use this heading by following markdownify rules. For example: use `#` for heading 1 and use `######` for heading 6.
+Voici un exemple de titres. Vous pouvez utiliser ces titres en suivant les règles de markdown. Par exemple : utilisez `#` pour le titre 1 et `######` pour le titre 6.
 
 # Heading 1
 ## Heading 2
@@ -21,36 +21,36 @@ Here is example of hedings. You can use this heading by following markdownify ru
 
 <hr>
 
-##### Emphasis
+##### Emphase
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Emphase, aussi appelée italique, avec des *astérisques* ou _underscores_.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Emphase forte, aussi appelée gras, avec des **astérisques** ou __underscores__.
 
-Combined emphasis with **asterisks and _underscores_**.
+Emphase combinée avec **astérisques et _underscores_**.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+Barré utilise deux tildes. ~~Rayez ceci.~~
 
 <hr>
 
-##### Link
-[I'm an inline-style link](https://www.google.com)
+##### Lien
+[Je suis un lien en ligne](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[Je suis un lien en ligne avec titre](https://www.google.com "Page d'accueil de Google")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[Je suis un lien de style référence][Texte de référence arbitraire insensible à la casse]
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[Je suis une référence relative à un fichier du dépôt](../blob/master/LICENSE)
 
-[You can use numbers for reference-style link definitions][1]
+[Vous pouvez utiliser des nombres pour les définitions de liens de style référence][1]
 
-Or leave it empty and use the [link text itself].
+Ou laissez-le vide et utilisez le [texte du lien lui-même].
 
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
+Les URLs et les URLs entre crochets angulaires seront automatiquement transformées en liens.
+http://www.example.com ou <http://www.example.com> et parfois
+example.com (mais pas sur Github, par exemple).
 
-Some text to show that the reference links can follow later.
+Texte pour montrer que les liens de référence peuvent suivre plus tard.
 
 [arbitrary case-insensitive reference text]: https://www.themefisher.com
 [1]: https://gethugothemes.com
@@ -58,63 +58,63 @@ Some text to show that the reference links can follow later.
 
 <hr>
 
-##### Paragraph
+##### Paragraphe
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
 
 <hr>
 
-##### Ordered List
+##### Liste Ordonnée
 
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
+1. Élément de liste
+2. Élément de liste
+3. Élément de liste
+4. Élément de liste
+5. Élément de liste
 
 <hr>
 
-##### Unordered List
+##### Liste Non Ordonnée
 
-* List item
-* List item
-* List item
-* List item
-* List item
+* Élément de liste
+* Élément de liste
+* Élément de liste
+* Élément de liste
+* Élément de liste
 
 <hr>
 
 #### Notice
 
 {{< notice "note" >}}
-  This is a simple note.
+  Ceci est une simple note.
 {{< /notice >}}
 
 {{< notice "tip" >}}
-  This is a simple tip.
+  Ceci est un simple conseil.
 {{< /notice >}}
 
 {{< notice "info" >}}
-  This is a simple info.
+  Ceci est une simple information.
 {{< /notice >}}
 
 <hr>
 
-#### Tab
+#### Onglet
 
 {{< tabs >}}
 
-  {{< tab "first" >}}
-   This is first tab
+  {{< tab "premier" >}}
+   Ceci est le premier onglet
   {{< /tab >}}
 
-  {{< tab "second" >}}
-  this is second tab
+  {{< tab "deuxième" >}}
+  ceci est le deuxième onglet
   {{< /tab >}}
 
-  {{< tab "third" >}}
-  this is third tab
-  {{< /tab >}}
+  {{< tab "troisième" >}}
+  ceci est le troisième onglet
+  {{< /tab>}}
 
 {{</ tabs >}}
 
@@ -123,73 +123,73 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 ### Collapse
 
 {{< collapse "collapse 1" >}}
-  This is a simple collapse
+  Ceci est un collapse simple
 {{< /collapse >}}
 
 {{< collapse "collapse 2" >}}
-  This is a simple collapse
+  Ceci est un collapse simple
 {{< /collapse >}}
 
 {{< collapse "collapse 3" >}}
-  This is a simple collapse
+  Ceci est un collapse simple
 {{< /collapse >}}
 
 <hr>
 
-##### Code and Syntax Highlighting
+##### Code et Coloration Syntaxique
 
-Inline `code` has `back-ticks around` it.
+Le `code` en ligne a des `back-ticks autour` de lui.
 
 ```javascript
-var s = "JavaScript syntax highlighting";
+var s = "Coloration syntaxique JavaScript";
 alert(s);
 ```
- 
+
 ```python
-s = "Python syntax highlighting"
+s = "Coloration syntaxique Python"
 print s
 ```
 
 <hr>
 
-##### Blockquote
+##### Citation
 
-> This is a blockquote example.
+> Ceci est un exemple de citation.
 
 <hr>
 
-##### Inline HTML
+##### HTML Inline
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
+Vous pouvez également utiliser du HTML brut dans votre Markdown, et cela fonctionnera plutôt bien.
 
 <dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+  <dt>Liste de définition</dt>
+  <dd>C'est quelque chose que les gens utilisent parfois.</dd>
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+  <dt>Markdown dans HTML</dt>
+  <dd>Ne fonctionne *pas* **très** bien. Utilisez des <em>balises</em> HTML.</dd>
 </dl>
 
 
 <hr>
 
-##### Tables
+##### Tableaux
 
-Colons can be used to align columns.
+Les deux-points peuvent être utilisés pour aligner les colonnes.
 
-| Tables        | Are           | Cool  |
+| Tableaux      | Sont          | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| col 3 est     | alignée à droite | 1600$ |
+| col 2 est     | centrée       |   12$ |
+| rayures zébrées | sont élégantes |    1$ |
 
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
+Il doit y avoir au moins 3 tirets séparant chaque cellule d'en-tête.
+Les barres externes (|) sont optionnelles, et vous n'avez pas besoin de rendre
+le Markdown brut bien aligné. Vous pouvez également utiliser du Markdown inline.
 
-Markdown | Less | Pretty
+Markdown | Moins | Joli
 --- | --- | ---
-*Still* | `renders` | **nicely**
+*Toujours* | `rendu` | **joliment**
 1 | 2 | 3
 
 <hr>
@@ -200,6 +200,6 @@ Markdown | Less | Pretty
 
 <hr>
 
-##### Youtube video
+##### Vidéo Youtube
 
 {{< youtube C0DPdy98e4c >}}
