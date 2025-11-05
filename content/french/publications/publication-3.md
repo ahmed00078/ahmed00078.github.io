@@ -1,5 +1,5 @@
 ---
-title: ""Le plus grand changement du fil d'actualité depuis 2013" : Facebook facilite le contournement de son algorithme"
+title: '"Le plus grand changement du fil d''actualité depuis 2013" : Facebook facilite le contournement de son algorithme'
 date: 2020-03-14T15:40:24+06:00
 # publication thumb
 image : "images/publications/pub3.jpg"
