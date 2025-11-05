@@ -1,5 +1,5 @@
 ---
-title: ""Les utilisateurs qui visitent trois fois par semaine sont 8 fois plus susceptibles de s'abonner" : Leçons de construction"
+title: '"Les utilisateurs qui visitent trois fois par semaine sont 8 fois plus susceptibles de s''abonner" : Leçons de construction'
 date: 2020-03-14T15:40:24+06:00
 # talks thumb
 image : "images/talks/talk2.jpg"
